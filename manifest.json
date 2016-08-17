@@ -1,0 +1,23 @@
+{
+  "name": "MediumPress",
+  "version": "0.0.1",
+  "description": "Create a chronological index of Medium posts",
+  "icons": { "128": "icon.png" },
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://medium.com/*"
+      ],
+      "js": ["jquery-2.2.4.min.js", "content.js"]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ],
+  "page_action": {
+      "default_name": "Display Map",
+      "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
