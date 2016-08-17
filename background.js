@@ -1,6 +1,14 @@
 
 console.log("hello background")
 
+function updateActionEnablement() {
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    var activeTab = tabs[0];
+    if (activeTab.url.indexOf('://medium.com/') >= 0) {
+      chrome.pageAction.show(activeTab.id);
+    }
+  });
+};
 
  // Enabled the button on the active tab.
 // chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
@@ -9,12 +17,12 @@ console.log("hello background")
 
 chrome.tabs.onUpdated.addListener(function(tabId, change, tab) {
   if (change.status == "complete") {
-    chrome.pageAction.show(tabId);
+    updateActionEnablement();
   }
 });
 
 chrome.tabs.onSelectionChanged.addListener(function(tabId, info) {
-  chrome.pageAction.show(tabId); // enable the button
+  updateActionEnablement();
 });
 
 
