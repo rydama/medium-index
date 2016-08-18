@@ -36,6 +36,28 @@ chrome.pageAction.onClicked.addListener(function(tab) {
     chrome.tabs.sendMessage(activeTab.id, {"message": "get_element_count"});
   });
 
+  url = "https://medium.com/_/api/users/46b03c875ccb/profile/stream?limit=8&to=1469940062507&source=latest&page=1"
+
+  $.ajax(url, {
+    dataType: "text"
+  })
+  .done(function(text) {
+    console.log( " success" );
+
+    // trim ])}while(1);</x>
+    // http://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses
+    cleaned = text.slice(16);
+    json = JSON.parse(cleaned);
+    console.log(json.success)
+    console.log(json.payload.streamItems.length)
+  })
+  .fail(function() {
+    console.log( "error" );
+  })
+  .always(function() {
+    console.log( "finished" );
+  });
+
 });
 
 chrome.runtime.onMessage.addListener(

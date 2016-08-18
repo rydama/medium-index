@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Create a chronological index of Medium posts",
   "icons": { "128": "icon.png" },
-  "background": { "scripts": ["background.js"] },
+  "background": {
+    "scripts": ["jquery-2.2.4.min.js", "background.js"]
+  },
   "content_scripts": [
     {
       "matches": [
@@ -13,7 +15,8 @@
     }
   ],
   "permissions": [
-    "tabs"
+    "tabs",
+    "https://medium.com/"
   ],
   "page_action": {
       "default_name": "Display Map",
