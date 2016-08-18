@@ -25,9 +25,18 @@ chrome.tabs.onSelectionChanged.addListener(function(tabId, info) {
   updateActionEnablement();
 });
 
+chrome.tabs.onRemoved.addListener(function (tabId) {
+  console.log("closed: " + tabId)
+});
+
 
 chrome.pageAction.onClicked.addListener(function(tab) {
   console.log("you clicked it");
+  // Open a new tab
+  chrome.tabs.create({'url': chrome.extension.getURL('mediumindex.html')}, function(tab) {
+    console.log("opened: " + tab.id)
+  });
+
 
    // Send a message to the active tab
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
