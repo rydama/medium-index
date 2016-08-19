@@ -10,7 +10,7 @@ chrome.runtime.onMessage.addListener(
 
 function addPost(request) {
   console.log("got addPost message")
-  $("#content").prepend('<a href="' + request.url + '">' + request.title + '</a> ' + moment(request.publishedAt).format("MMMM DD, YYYY") + '<br/>');
+  $("#content").prepend('<a target="_blank" href="' + request.url + '">' + request.title + '</a> ' + moment(request.publishedAt).format("MMMM DD, YYYY") + '<br/>');
 }
 
 function complete(request) {

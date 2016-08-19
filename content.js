@@ -13,27 +13,24 @@ chrome.runtime.onMessage.addListener(
 );
 
 function startFetchingPosts(tabId) {
-  url = "https://medium.com/_/api/users/46b03c875ccb/profile/stream?limit=8&to=1469940062507&source=latest&page=1"
+  var url = "https://medium.com/_/api/users/46b03c875ccb/profile/stream?limit=8&to=1469940062507&source=latest&page=1"
 
   $.ajax(url, {
     dataType: "text"
   })
   .done(function(text) {
-    console.log( " success" );
-
     // trim ])}while(1);</x>
     // http://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses
     cleaned = text.slice(16);
     json = JSON.parse(cleaned);
-    console.log(json.success)
-    console.log(json.payload.streamItems.length)
     console.log("paging path: " + json.payload.paging.path)
     // why is key quoted??
-    posts = parsePosts(json);
+    posts = getPosts(json);
+
     $.each(posts, function(i, post) {
       chrome.runtime.sendMessage({
         "message": "addPost",
-        "url": "http://foo.com",
+        "url": getPostUrl(post, json),
         "title": post.title,
         "publishedAt": post.latestPublishedAt});
     });
@@ -51,15 +48,18 @@ function startFetchingPosts(tabId) {
   });
 }
 
-function parsePosts(response) {
-  postData = response.payload.references.Post;
-  posts = []
+function getPosts(data) {
+  var postData = data.payload.references.Post;
+  var posts = []
   for (var postId in postData) {
     posts.push(postData[postId]);
   }
   return posts;
 }
 
-function parsePost(post) {
-
+function getPostUrl(post, data) {
+  var collections = data.payload.references.Collection;
+  return "https://medium.com/" +
+    collections[post.homeCollectionId].slug + "/" +
+    post.uniqueSlug;
 }
