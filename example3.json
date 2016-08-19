@@ -1,0 +1,403 @@
+{
+  "success": true,
+  "payload": {
+    "streamItems": [{
+      "createdAt": 1471624525490,
+      "postPreview": {
+        "postId": "e15c89ce02ad"
+      },
+      "randomId": "e2bfb3327681",
+      "itemType": "postPreview",
+      "type": "StreamItem"
+    }],
+    "references": {
+      "Collection": {
+        "e0cfb405ceb2": {
+          "id": "e0cfb405ceb2",
+          "name": "Treehouse",
+          "slug": "team-treehouse",
+          "tags": ["CODING", "WEB DEVELOPMENT", "TREEHOUSE", "PROGRAMMING"],
+          "creatorId": "fb8d78e7d205",
+          "description": "We believe anyone can be a developer. We’ve also seen that with the right portfolio of skills and experience, you don’t need a Computer Science degree to launch a career. That’s why we teach skills in cutting edge technology to prepare our students to take charge of their future.",
+          "shortDescription": "We believe anyone can be a developer.",
+          "image": {
+            "imageId": "1*qter1zLcm95ZguQKnOysQw.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 250,
+            "originalHeight": 250,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "metadata": {
+            "followerCount": 176,
+            "postCount": 0,
+            "activeAt": 1471615562000
+          },
+          "virtuals": {
+            "permissions": {
+              "canPublish": false,
+              "canPublishAll": false,
+              "canRepublish": false,
+              "canRemove": false,
+              "canManageAll": false,
+              "canSubmit": false,
+              "canEditPosts": false,
+              "canAddWriters": false,
+              "canViewStats": false,
+              "canSendNewsletter": false,
+              "canViewLockedPosts": false,
+              "canViewCloaked": false,
+              "canEditOwnPosts": false,
+              "canBeAssignedAuthor": false
+            },
+            "isSubscribed": false,
+            "isNewsletterSubscribed": false,
+            "memberOfMembershipPlanId": ""
+          },
+          "logo": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "twitterUsername": "treehouse",
+          "facebookPageName": "teamtreehouse",
+          "publicEmail": "help@teamtreehouse.com",
+          "sections": [{
+            "type": 2,
+            "collectionHeaderMetadata": {
+              "title": "Treehouse",
+              "description": "Learn web design, coding & more.",
+              "backgroundImage": {
+                "id": "1*ZtRg6ek4rwN1RVzANnUVkw.png",
+                "originalWidth": 941,
+                "originalHeight": 628,
+                "focusPercentX": 24.285714285714285,
+                "focusPercentY": 72.19251336898395
+              },
+              "logoImage": {},
+              "alignment": 2,
+              "layout": 6
+            }
+          }, {
+            "type": 1,
+            "postListMetadata": {
+              "source": 1,
+              "layout": 6,
+              "number": 10,
+              "postIds": []
+            }
+          }],
+          "favicon": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "colorPalette": {
+            "defaultBackgroundSpectrum": {
+              "colorPoints": [{
+                "color": "#FF02B875",
+                "point": 0
+              }, {
+                "color": "#FF00AB6B",
+                "point": 0.1
+              }, {
+                "color": "#FF1C9963",
+                "point": 0.2
+              }, {
+                "color": "#FF092E20",
+                "point": 1
+              }],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "highlightSpectrum": {
+              "colorPoints": [{
+                "color": "#FFFFFFFF",
+                "point": 0
+              }, {
+                "color": "#FFE9FDF0",
+                "point": 0.1
+              }, {
+                "color": "#FFE2FAEE",
+                "point": 0.2
+              }, {
+                "color": "#FFADFFCF",
+                "point": 0.6
+              }, {
+                "color": "#FF7DFFB3",
+                "point": 1
+              }],
+              "backgroundColor": "#FFFFFFFF"
+            }
+          },
+          "navItems": [],
+          "fullTextRssFeed": 0,
+          "colorBehavior": 1,
+          "instantArticlesState": 0,
+          "acceleratedMobilePagesState": 0,
+          "ampLogo": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "type": "Collection"
+        }
+      },
+      "User": {
+        "f98c1f7b438": {
+          "userId": "f98c1f7b438",
+          "name": "Noel Van Dyke",
+          "username": "noel_29138",
+          "createdAt": 1471470536061,
+          "lastPostCreatedAt": 1471534641640,
+          "imageId": "0*xaJlbjxMOFrheD_C.",
+          "backgroundImageId": "",
+          "bio": "",
+          "twitterScreenName": "",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        }
+      },
+      "Post": {
+        "e15c89ce02ad": {
+          "id": "e15c89ce02ad",
+          "versionId": "89502fb40a33",
+          "creatorId": "f98c1f7b438",
+          "homeCollectionId": "e0cfb405ceb2",
+          "title": "Diversity & Inclusion: Embrace the Chaos",
+          "detectedLanguage": "en",
+          "latestVersion": "89502fb40a33",
+          "latestPublishedVersion": "89502fb40a33",
+          "hasUnpublishedEdits": false,
+          "latestRev": 91,
+          "createdAt": 1471534641640,
+          "updatedAt": 1471615562000,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1471615561699,
+          "latestPublishedAt": 1471615561699,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "The flag has been raised. We’ve identified a major gap in tech. Our companies are so homogenous — so very, very white… and male. Treehouse…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "APPROVED",
+            "createdAtRelative": "a day ago",
+            "updatedAtRelative": "2 hours ago",
+            "acceptedAtRelative": "",
+            "createdAtEnglish": "August 18, 2016",
+            "updatedAtEnglish": "August 19, 2016",
+            "acceptedAtEnglish": "",
+            "firstPublishedAtEnglish": "August 19, 2016",
+            "latestPublishedAtEnglish": "August 19, 2016",
+            "allowNotes": true,
+            "snippet": "The flag has been raised. We’ve identified a major gap in tech. Our companies are so homogenous — so very, very white… and male. Treehouse…",
+            "previewImage": {
+              "imageId": "1*q8nG88o-MIZhJRtW1CYWdg.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 2500,
+              "originalHeight": 1406,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 1054,
+            "imageCount": 1,
+            "readingTime": 4.1773584905660375,
+            "subtitle": "The flag has been raised. We’ve identified a major gap in tech. Our companies are so homogenous — so very, very white… and male. Treehouse…",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "latestPublishedAtAbbreviated": "Aug 19",
+            "firstPublishedAtAbbreviated": "Aug 19",
+            "emailSnippet": "is one of 20+ companies in Portland that recognize this gap and have made a real commitment to make the tech space more diverse and inclusive.\n\nCheck out our TechTown pledge.\n\nAt Treehouse, we are committed to preserving a diverse and inclusive culture. We know that people who work in a diversified workplace find it easier to express new ideas and perspectives than in an environment where individuals are similar and uniform in thought.",
+            "recommends": 1,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "diversity",
+              "name": "Diversity",
+              "postCount": 3218,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 150078,
+                "postCount": 3218,
+                "coverImage": {
+                  "id": "1*0pJVTsrDph2JWZOmhf4JlQ.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "diversity-in-tech",
+              "name": "Diversity In Tech",
+              "postCount": 473,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 221,
+                "postCount": 473,
+                "coverImage": {
+                  "id": "1*Z3hWCZHoI-Im3gQjF6Vjog.png",
+                  "originalWidth": 655,
+                  "originalHeight": 312
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "company-culture",
+              "name": "Company Culture",
+              "postCount": 1068,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 222,
+                "postCount": 1068,
+                "coverImage": {
+                  "id": "1*KdebyneFovCwjjXJ_WQHfw.jpeg",
+                  "originalWidth": 5184,
+                  "originalHeight": 3502
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "hiring",
+              "name": "Hiring",
+              "postCount": 3741,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 444,
+                "postCount": 3741,
+                "coverImage": {
+                  "id": "1*9cssLjblsNaf-pIB3y-mhw.png",
+                  "originalWidth": 1024,
+                  "originalHeight": 768
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "tech-industry",
+              "name": "Tech Industry",
+              "postCount": 13,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 5,
+                "postCount": 13,
+                "coverImage": {
+                  "id": "1*p17Q7XFfDJBBmIC30yc_VA.jpeg",
+                  "originalWidth": 1280,
+                  "originalHeight": 720
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "isLockedPreviewOnly": false
+          },
+          "coverless": true,
+          "slug": "diversity-inclusion-embrace-the-chaos",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "diversity-inclusion-embrace-the-chaos-e15c89ce02ad",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "a503",
+                "type": 4,
+                "text": "",
+                "markups": [],
+                "layout": 10,
+                "metadata": {
+                  "id": "1*q8nG88o-MIZhJRtW1CYWdg.jpeg",
+                  "originalWidth": 2500,
+                  "originalHeight": 1406
+                }
+              }, {
+                "name": "494e",
+                "type": 3,
+                "text": "Diversity & Inclusion: Embrace the Chaos",
+                "markups": [{
+                  "type": 1,
+                  "start": 0,
+                  "end": 40
+                }],
+                "alignment": 1
+              }, {
+                "name": "8277",
+                "type": 1,
+                "text": "The flag has been raised. We’ve identified a major gap in tech. Our companies are so…",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "e0cfb405ceb2",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "type": "Post"
+        }
+      }
+    },
+    "paging": {
+      "path": "/_/api/users/f98c1f7b438/profile/stream",
+      "next": {
+        "limit": "8",
+        "to": "1471615561699",
+        "source": "latest",
+        "page": 1
+      }
+    }
+  },
+  "v": 3,
+  "b": "23638-0ec47a5"
+}

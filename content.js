@@ -17,6 +17,10 @@ chrome.runtime.onMessage.addListener(
 var interrupted = false;
 var baseUserUrl = $('meta[property="al:web:url"]').attr('content')
 
+function getPostsFromPage() {
+  document.querySelectorAll("article.postArticle a")
+}
+
 /**
  * Start fetching the post lists via the medium (internal) api.
  */
