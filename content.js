@@ -38,6 +38,10 @@ function startFetchingPosts(tabId) {
         "publishedAt": post.latestPublishedAt});
     });
 
+    chrome.runtime.sendMessage({
+      "message": "complete"
+    });
+
   })
   .fail(function() {
     console.log( "error" );

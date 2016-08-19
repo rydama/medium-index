@@ -32,7 +32,7 @@ chrome.tabs.onRemoved.addListener(function (tabId) {
 
 chrome.pageAction.onClicked.addListener(function(tab) {
   // Create an index page to contain Medium post links.
-  chrome.tabs.create({'url': chrome.extension.getURL('medium-index.html')}, function(indexTab) {
+  chrome.tabs.create({'url': chrome.extension.getURL('post-index.html')}, function(indexTab) {
     // Tell the content script to start fetching posts for this index page.
     // can't sent to content this way: chrome.runtime.sendMessage({"message": "startFetchingPosts", "tabId": tab.id});
     chrome.tabs.sendMessage(tab.id, {"message": "startFetchingPosts", "tabId": indexTab.id });
