@@ -27,9 +27,16 @@ function startFetchingPosts(tabId) {
     json = JSON.parse(cleaned);
     console.log(json.success)
     console.log(json.payload.streamItems.length)
-    chrome.runtime.sendMessage({"message": "addPost", "url": "http://foo.com", "title": "hey hey"});
+    console.log("paging path: " + json.payload.paging.path)
     // why is key quoted??
-    //chrome.tabs.sendMessage(tabId, {"message": "addPost", "url": "http://foo.com", "title": "Yo Dawg"});
+    posts = parsePosts(json);
+    $.each(posts, function(i, post) {
+      chrome.runtime.sendMessage({
+        "message": "addPost",
+        "url": "http://foo.com",
+        "title": post.title,
+        "publishedAt": post.latestPublishedAt});
+    });
 
   })
   .fail(function() {
@@ -38,4 +45,17 @@ function startFetchingPosts(tabId) {
   .always(function() {
     console.log( "finished" );
   });
+}
+
+function parsePosts(response) {
+  postData = response.payload.references.Post;
+  posts = []
+  for (var postId in postData) {
+    posts.push(postData[postId]);
+  }
+  return posts;
+}
+
+function parsePost(post) {
+
 }
