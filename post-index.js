@@ -4,6 +4,10 @@ chrome.runtime.onMessage.addListener(
       addPost(request); // ryanm .call(request.message) ?
     } else if (request.message === "complete") {
       complete(request);
+    } else if (request.message === "failed") {
+      failed(request);
+    } else if (request.message === "interrupted") {
+      interrupted(request);
     }
   }
 );
@@ -14,6 +18,17 @@ function addPost(request) {
 }
 
 function complete(request) {
+  $("#content").prepend("<h3>Done!</h3>");
+  NProgress.done();
+}
+
+function failed(request) {
+  $("#content").prepend("<h3>failed: " + request.error +  "</h3>");
+  NProgress.done();
+}
+
+function interrupted(request) {
+  $("#content").prepend("<h3>interrupted!</h3>");
   NProgress.done();
 }
 

@@ -1,5 +1,6 @@
 
 console.log("hello background")
+contentTab = null;
 
 function updateActionEnablement() {
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
@@ -27,10 +28,15 @@ chrome.tabs.onSelectionChanged.addListener(function(tabId, info) {
 
 chrome.tabs.onRemoved.addListener(function (tabId) {
   console.log("closed: " + tabId)
+  if (contentTab) {
+    chrome.tabs.sendMessage(contentTab.id, {"message": "stopFetchingPosts"});
+  }
 });
 
 
 chrome.pageAction.onClicked.addListener(function(tab) {
+  contentTab = tab;
+
   // Create an index page to contain Medium post links.
   chrome.tabs.create({'url': chrome.extension.getURL('post-index.html')}, function(indexTab) {
     // Tell the content script to start fetching posts for this index page.
