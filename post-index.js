@@ -33,5 +33,6 @@ function interrupted(request) {
 }
 
 $(function() {
+  NProgress.configure({ trickleRate: 0.05, showSpinner: false });
   NProgress.start();
 });

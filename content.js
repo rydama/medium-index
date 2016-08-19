@@ -15,6 +15,7 @@ chrome.runtime.onMessage.addListener(
 
 
 var interrupted = false;
+var baseUserUrl = $('meta[property="al:web:url"]').attr('content')
 
 /**
  * Start fetching the post lists via the medium (internal) api.
@@ -29,6 +30,8 @@ function startFetchingPosts(tabId) {
   fetchPosts(url);
 }
 
+var foo = 0;
+
 function fetchPosts(url) {
   console.log("fetching " + url);
 
@@ -38,9 +41,10 @@ function fetchPosts(url) {
   })
   .done(function(text) {
     try {
+      foo++;
       json = stripSecurityPrefix(text);
       nextUrl = processPosts(json);
-      if (interrupted) {
+      if (foo > 3 || interrupted) {
         console.log("fetchPosts interrupted");
         chrome.runtime.sendMessage({"message": "interrupted"});
       } else if (nextUrl) {
@@ -126,6 +130,9 @@ function getPostUrl(post, data) {
   var url = "https://medium.com/";
   if (post.homeCollectionId && post.homeCollectionId.length) {
     url += collections[post.homeCollectionId].slug + "/";
+  } else {
+    console.log("no collection: " + post.uniqueSlug)
+    url = baseUserUrl;
   }
   url += post.uniqueSlug;
   return url;
