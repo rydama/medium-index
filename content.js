@@ -46,8 +46,8 @@ function fetchPosts(url) {
   .done(function(text) {
     try {
       foo++;
-      json = stripSecurityPrefix(text);
-      nextUrl = processPosts(json);
+      var json = stripSecurityPrefix(text);
+      var nextUrl = processPosts(json);
       if (foo > 3 || interrupted) {
         console.log("fetchPosts interrupted");
         chrome.runtime.sendMessage({"message": "interrupted"});
@@ -69,14 +69,19 @@ function fetchPosts(url) {
 }
 
 function processPosts(data) {
-  posts = getPosts(json);
+  posts = getPosts(data);
 
   $.each(posts, function(i, post) {
+    var user = getUser(post.creatorId, data)
     chrome.runtime.sendMessage({
       // ryanm why is key quoted??
       "message": "addPost",
       "url": getPostUrl(post, data),
       "title": post.title,
+      "authorName": user.name,
+      "imageUrl": getImageUrl(user),
+      "recommends": getRecommendsCount(post),
+      "responses": getResponsesCount(post),
       "publishedAt": post.latestPublishedAt});
   });
 
@@ -106,6 +111,18 @@ function stripSecurityPrefix(response) {
   return JSON.parse(cleaned);
 }
 
+function getImageUrl(user) {
+  return "https://cdn-images-1.medium.com/fit/c/72/72/" + user.imageId;
+}
+
+function getRecommendsCount(post) {
+  return post.virtuals.recommends;
+}
+
+function getResponsesCount(post) {
+  return post.virtuals.responsesCreatedCount;
+}
+
 function fetchPost(url) {
   return $.ajax(url, {
     // Use 'text' since there is a security prefix on the returned json.
@@ -126,6 +143,11 @@ function getPosts(data) {
     posts.push(postData[postId]);
   }
   return posts;
+}
+
+function getUser(userId, data) {
+  var userData = data.payload.references.User;
+  return userData[userId];
 }
 
 function getPostUrl(post, data) {

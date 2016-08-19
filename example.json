@@ -2,67 +2,67 @@
   "success": true,
   "payload": {
     "streamItems": [{
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "6de58c89d237"
+        "postId": "52a733f23fc9"
       },
-      "randomId": "6cc26795d8b9",
+      "randomId": "9aa3284c1d60",
       "itemType": "postPreview",
       "type": "StreamItem"
     }, {
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "7aa619971b61"
+        "postId": "72daa7e14435"
       },
-      "randomId": "1aacbaea0102",
+      "randomId": "a1b1c45d127b",
       "itemType": "postPreview",
       "type": "StreamItem"
     }, {
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "4f265d5bebd0"
+        "postId": "988f3fe7cc3f"
       },
-      "randomId": "dabd5d33cca7",
+      "randomId": "aa2364aa46b8",
       "itemType": "postPreview",
       "type": "StreamItem"
     }, {
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "3be162b31eb"
+        "postId": "13506fa402bd"
       },
-      "randomId": "8ecf3e26382",
+      "randomId": "4aaeb13c8025",
       "itemType": "postPreview",
       "type": "StreamItem"
     }, {
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "4ead1ee863ac"
+        "postId": "cf3c886f8424"
       },
-      "randomId": "bfc2597a2bf0",
+      "randomId": "8e96773e2d7e",
       "itemType": "postPreview",
       "type": "StreamItem"
     }, {
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "a3441de9bc44"
+        "postId": "3e10cb827c2f"
       },
-      "randomId": "2ee3fb63c9a7",
+      "randomId": "a8b0e4bb16fe",
       "itemType": "postPreview",
       "type": "StreamItem"
     }, {
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "83c52b8db8b8"
+        "postId": "a18491f951e7"
       },
-      "randomId": "eab5dd5bb670",
+      "randomId": "ff571dab904",
       "itemType": "postPreview",
       "type": "StreamItem"
     }, {
-      "createdAt": 1471616749427,
+      "createdAt": 1471643862587,
       "postPreview": {
-        "postId": "fadca6dd2432"
+        "postId": "cca88500a478"
       },
-      "randomId": "f454ea58a9af",
+      "randomId": "7e86e7b625fa",
       "itemType": "postPreview",
       "type": "StreamItem"
     }],
@@ -87,7 +87,7 @@
             "width": 0
           },
           "metadata": {
-            "followerCount": 22613,
+            "followerCount": 22630,
             "postCount": 307,
             "activeAt": 1471581661851
           },
@@ -336,74 +336,121 @@
         }
       },
       "Post": {
-        "6de58c89d237": {
-          "id": "6de58c89d237",
-          "versionId": "452157c585a4",
+        "52a733f23fc9": {
+          "id": "52a733f23fc9",
+          "versionId": "9a8e4c83d047",
           "creatorId": "46b03c875ccb",
           "homeCollectionId": "d0222a67990e",
-          "title": "Stress ≠ Productivity 👊",
+          "title": "Extreme conscious acceptance",
           "detectedLanguage": "en",
-          "latestVersion": "452157c585a4",
-          "latestPublishedVersion": "452157c585a4",
+          "latestVersion": "9a8e4c83d047",
+          "latestPublishedVersion": "9a8e4c83d047",
           "hasUnpublishedEdits": false,
-          "latestRev": 185,
-          "createdAt": 1470879876017,
-          "updatedAt": 1471469242181,
+          "latestRev": 296,
+          "createdAt": 1471478940752,
+          "updatedAt": 1471581661850,
           "acceptedAt": 0,
-          "firstPublishedAt": 1470890461493,
-          "latestPublishedAt": 1470890461493,
+          "firstPublishedAt": 1471581661601,
+          "latestPublishedAt": 1471581661601,
           "vote": false,
           "experimentalCss": "",
           "displayAuthor": "",
           "content": {
-            "subtitle": "It should be obvious, but it isn’t…",
+            "subtitle": "“What I want is what is.”",
             "postDisplay": {
               "coverless": true
             }
           },
           "virtuals": {
             "statusForCollection": "APPROVED",
-            "createdAtRelative": "9 days ago",
-            "updatedAtRelative": "2 days ago",
+            "createdAtRelative": "2 days ago",
+            "updatedAtRelative": "17 hours ago",
             "acceptedAtRelative": "",
-            "createdAtEnglish": "August 10, 2016",
-            "updatedAtEnglish": "August 17, 2016",
+            "createdAtEnglish": "August 17, 2016",
+            "updatedAtEnglish": "August 18, 2016",
             "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 10, 2016",
-            "latestPublishedAtEnglish": "August 10, 2016",
+            "firstPublishedAtEnglish": "August 18, 2016",
+            "latestPublishedAtEnglish": "August 18, 2016",
             "allowNotes": true,
-            "snippet": "It should be obvious, but it isn’t…",
+            "snippet": "“What I want is what is.”",
             "previewImage": {
-              "imageId": "1*oKLe13W43go0oNQQxDUU0Q.jpeg",
+              "imageId": "1*QWz3ot451_7Jtc5ELEvHXQ.jpeg",
               "filter": "",
               "backgroundSize": "",
-              "originalWidth": 3723,
-              "originalHeight": 2481,
+              "originalWidth": 6708,
+              "originalHeight": 4472,
               "strategy": "resample",
               "height": 0,
               "width": 0
             },
-            "wordCount": 204,
+            "wordCount": 508,
             "imageCount": 1,
-            "readingTime": 0.969811320754717,
-            "subtitle": "It should be obvious, but it isn’t…",
+            "readingTime": 2.116981132075472,
+            "subtitle": "“What I want is what is.”",
             "publishedInCount": 1,
             "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 10",
-            "firstPublishedAtAbbreviated": "Aug 10",
-            "emailSnippet": "…\n\nStress is not a prerequisite for productivity. It’s definitely not a stand-in for it.\n\nSo what brought us here? I believe it’s a byproduct of growing up in a factory-based society. From home to school to work doing meaningless chores, jobs, and tasks where the parents, teachers, foremen and managers gauge our work by how ‘busy’ (stressed out) we appear.\n\nYelling makes us look productive when our jobs are to look busy.",
-            "recommends": 56,
+            "latestPublishedAtAbbreviated": "Aug 18",
+            "firstPublishedAtAbbreviated": "Aug 18",
+            "emailSnippet": "Byron Katie said this. (Damn her. She always gets me thinking bettah, that woman.)\n\nWhat if we could live this reality? What if this was your mantra?…\n\n“Everything is perfect. As it is. Always”\n\nWhat if ‘want’ or ‘lack’ never crossed our mind, despite the circumstances — whether we were living in a mansion or in a gutter? What if we could see the moment, feel the moment, and love the sh*t out of it regardless?",
+            "recommends": 45,
             "isBookmarked": false,
             "tags": [{
-              "slug": "personal-development",
-              "name": "Personal Development",
-              "postCount": 10552,
+              "slug": "self-improvement",
+              "name": "Self Improvement",
+              "postCount": 31547,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 4167,
-                "postCount": 10552,
+                "followerCount": 515091,
+                "postCount": 31547,
+                "coverImage": {
+                  "id": "1*70mWmxgf52m1YqTcCfRkkQ.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "life-lessons",
+              "name": "Life Lessons",
+              "postCount": 72457,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 442262,
+                "postCount": 72457,
+                "coverImage": {
+                  "id": "1*xJV8uYsDYrnDwulfbMByRQ.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "consciousness",
+              "name": "Consciousness",
+              "postCount": 2263,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 275,
+                "postCount": 2263,
+                "coverImage": {
+                  "id": "1*QWz3ot451_7Jtc5ELEvHXQ.jpeg",
+                  "originalWidth": 6708,
+                  "originalHeight": 4472
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "personal-development",
+              "name": "Personal Development",
+              "postCount": 10570,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 4179,
+                "postCount": 10570,
                 "coverImage": {
                   "id": "1*CrudMybVm8peqPPIrgAitg.png",
                   "originalWidth": 2048,
@@ -412,46 +459,29 @@
               },
               "type": "Tag"
             }, {
-              "slug": "mindfulness",
-              "name": "Mindfulness",
-              "postCount": 6114,
+              "slug": "acceptance",
+              "name": "Acceptance",
+              "postCount": 434,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 1637,
-                "postCount": 6114,
+                "followerCount": 9,
+                "postCount": 434,
                 "coverImage": {
-                  "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
-                  "originalWidth": 265,
-                  "originalHeight": 400
-                }
-              },
-              "type": "Tag"
-            }, {
-              "slug": "stress",
-              "name": "Stress",
-              "postCount": 1340,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 78,
-                "postCount": 1340,
-                "coverImage": {
-                  "id": "1*eurAdhT8b6VH7CJbISBGPg.jpeg",
-                  "originalWidth": 851,
-                  "originalHeight": 315
+                  "id": "1*QWz3ot451_7Jtc5ELEvHXQ.jpeg",
+                  "originalWidth": 6708,
+                  "originalHeight": 4472
                 }
               },
               "type": "Tag"
             }],
             "socialRecommendsCount": 0,
-            "responsesCreatedCount": 3,
+            "responsesCreatedCount": 7,
             "isLockedPreviewOnly": false
           },
           "coverless": true,
-          "slug": "stress-productivity",
+          "slug": "extreme-conscious-acceptance",
           "translationSourcePostId": "",
           "translationSourceCreatorId": "",
           "isApprovedTranslation": false,
@@ -462,40 +492,39 @@
           "importedUrl": "",
           "importedPublishedAt": 0,
           "visibility": 0,
-          "uniqueSlug": "stress-productivity-6de58c89d237",
+          "uniqueSlug": "extreme-conscious-acceptance-52a733f23fc9",
           "previewContent": {
             "bodyModel": {
               "paragraphs": [{
-                "name": "5f84",
+                "name": "a66a",
                 "type": 3,
-                "text": "Stress ≠ Productivity 👊",
+                "text": "Extreme conscious acceptance",
                 "markups": [],
                 "alignment": 1
               }, {
-                "name": "b27f",
+                "name": "9305",
                 "type": 4,
                 "text": "",
                 "markups": [{
                   "type": 3,
                   "start": 7,
-                  "end": 20,
-                  "href": "https://unsplash.com/@pictagramar",
+                  "end": 19,
+                  "href": "https://unsplash.com/@xromero",
                   "title": "",
                   "rel": "",
                   "anchorType": 0
                 }],
                 "layout": 10,
                 "metadata": {
-                  "id": "1*oKLe13W43go0oNQQxDUU0Q.jpeg",
-                  "originalWidth": 3723,
-                  "originalHeight": 2481
+                  "id": "1*QWz3ot451_7Jtc5ELEvHXQ.jpeg",
+                  "originalWidth": 6708,
+                  "originalHeight": 4472
                 }
               }, {
-                "name": "29b7",
-                "type": 1,
-                "text": "It should be obvious, but it isn’t…",
+                "name": "d1b2",
+                "type": 3,
+                "text": "“What I want is what is.”",
                 "markups": [],
-                "hasDropCap": true,
                 "alignment": 1
               }],
               "sections": [{
@@ -519,108 +548,106 @@
           "notifyFacebook": false,
           "type": "Post"
         },
-        "7aa619971b61": {
-          "id": "7aa619971b61",
-          "versionId": "a57a10d6f9b0",
+        "72daa7e14435": {
+          "id": "72daa7e14435",
+          "versionId": "5e0533dd164d",
           "creatorId": "46b03c875ccb",
           "homeCollectionId": "d0222a67990e",
-          "title": "True insight",
+          "title": "Rising above fear",
           "detectedLanguage": "en",
-          "latestVersion": "a57a10d6f9b0",
-          "latestPublishedVersion": "a57a10d6f9b0",
+          "latestVersion": "5e0533dd164d",
+          "latestPublishedVersion": "5e0533dd164d",
           "hasUnpublishedEdits": false,
-          "latestRev": 124,
-          "createdAt": 1470785912324,
-          "updatedAt": 1471466800545,
+          "latestRev": 116,
+          "createdAt": 1471476595610,
+          "updatedAt": 1471588984263,
           "acceptedAt": 0,
-          "firstPublishedAt": 1470790538882,
-          "latestPublishedAt": 1470804061443,
+          "firstPublishedAt": 1471495263512,
+          "latestPublishedAt": 1471495263512,
           "vote": false,
           "experimentalCss": "",
           "displayAuthor": "",
           "content": {
-            "subtitle": "True insight is a natural (but not a normal) occasion.",
+            "subtitle": "I got a note from one of my favorite readers the other day. Here’s a snippet of what she said:",
             "postDisplay": {
               "coverless": true
             }
           },
           "virtuals": {
             "statusForCollection": "APPROVED",
-            "createdAtRelative": "10 days ago",
-            "updatedAtRelative": "2 days ago",
+            "createdAtRelative": "2 days ago",
+            "updatedAtRelative": "15 hours ago",
             "acceptedAtRelative": "",
-            "createdAtEnglish": "August 9, 2016",
-            "updatedAtEnglish": "August 17, 2016",
+            "createdAtEnglish": "August 17, 2016",
+            "updatedAtEnglish": "August 18, 2016",
             "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 9, 2016",
-            "latestPublishedAtEnglish": "August 9, 2016",
+            "firstPublishedAtEnglish": "August 17, 2016",
+            "latestPublishedAtEnglish": "August 17, 2016",
             "allowNotes": true,
-            "snippet": "True insight is a natural (but not a normal) occasion.",
+            "snippet": "I got a note from one of my favorite readers the other day. Here’s a snippet of what she said:",
             "previewImage": {
-              "imageId": "1*OeFBbwVHH6x7yQTt6RMMMw.png",
+              "imageId": "1*3W8itPOnsDR2AyakaFoUow.jpeg",
               "filter": "",
               "backgroundSize": "",
-              "originalWidth": 4709,
-              "originalHeight": 3141,
+              "originalWidth": 5312,
+              "originalHeight": 2988,
               "strategy": "resample",
               "height": 0,
               "width": 0
             },
-            "wordCount": 183,
+            "wordCount": 418,
             "imageCount": 1,
-            "readingTime": 0.8905660377358491,
-            "subtitle": "True insight is a natural (but not a normal) occasion.",
+            "readingTime": 1.7773584905660378,
+            "subtitle": "I got a note from one of my favorite readers the other day. Here’s a snippet of what she said:",
             "publishedInCount": 1,
             "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 9",
-            "firstPublishedAtAbbreviated": "Aug 9",
-            "emailSnippet": "True insight comes from the unknown.\n\nTrue insight provides a vision for discovery, not a destination.\n\nTrue insight is much more than just an answer to a preexisting question.\n\nTrue insight kicks down the door and tosses up a whole new paradigm — an entirely fresh foundation to stand on and view the world.\n\nTrue insight shows up as an opening — a new space for being.\n\nTrue insight comes, not from a question, but from an inquiry into the nature of being that’s not about producing solutions…",
-            "recommends": 22,
+            "latestPublishedAtAbbreviated": "Aug 17",
+            "firstPublishedAtAbbreviated": "Aug 17",
+            "emailSnippet": "Awhile back I realized that fear was guiding me. And, in a cruel twist of fate, I am afraid of fear. Then the best thing happened — just two days ago I realized that I am afraid of letting go of fear. It turns out this is something I can work with precisely because I know what you say is true, and if I remember it, the logical conclusion is that it is not only safe, but the best possible course of action, to let go of fear.",
+            "recommends": 59,
             "isBookmarked": false,
             "tags": [{
-              "slug": "mindfulness",
-              "name": "Mindfulness",
-              "postCount": 6114,
+              "slug": "fear",
+              "name": "Fear",
+              "postCount": 2803,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 1637,
-                "postCount": 6114,
+                "followerCount": 93,
+                "postCount": 2803,
                 "coverImage": {
-                  "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
-                  "originalWidth": 265,
-                  "originalHeight": 400
+                  "id": "1*3W8itPOnsDR2AyakaFoUow.jpeg",
+                  "originalWidth": 5312,
+                  "originalHeight": 2988
                 }
               },
               "type": "Tag"
             }, {
-              "slug": "personal-development",
-              "name": "Personal Development",
-              "postCount": 10552,
+              "slug": "life",
+              "name": "Life",
+              "postCount": 66895,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 4167,
-                "postCount": 10552,
+                "followerCount": 496648,
+                "postCount": 66895,
                 "coverImage": {
-                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
-                  "originalWidth": 2048,
-                  "originalHeight": 1369
+                  "id": "1*0sJtn9WT-yfCMX8S8LyYVg.jpeg"
                 }
               },
               "type": "Tag"
             }, {
               "slug": "motivation",
               "name": "Motivation",
-              "postCount": 10489,
+              "postCount": 10507,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 2521,
-                "postCount": 10489,
+                "followerCount": 2524,
+                "postCount": 10507,
                 "coverImage": {
                   "id": "0*5aMxtjNXBHpP0tgp.",
                   "originalWidth": 2000,
@@ -634,7 +661,7 @@
             "isLockedPreviewOnly": false
           },
           "coverless": true,
-          "slug": "true-insight",
+          "slug": "rising-above-fear",
           "translationSourcePostId": "",
           "translationSourceCreatorId": "",
           "isApprovedTranslation": false,
@@ -645,403 +672,38 @@
           "importedUrl": "",
           "importedPublishedAt": 0,
           "visibility": 0,
-          "uniqueSlug": "true-insight-7aa619971b61",
+          "uniqueSlug": "rising-above-fear-72daa7e14435",
           "previewContent": {
             "bodyModel": {
               "paragraphs": [{
-                "name": "f00a",
+                "name": "6874",
                 "type": 3,
-                "text": "True insight",
+                "text": "Rising above fear",
                 "markups": [],
                 "alignment": 1
               }, {
-                "name": "011f",
+                "name": "312e",
                 "type": 4,
                 "text": "",
                 "markups": [{
                   "type": 3,
-                  "start": 7,
-                  "end": 24,
-                  "href": "https://unsplash.com/@joshua",
+                  "start": 6,
+                  "end": 19,
+                  "href": "https://unsplash.com/@zachizraeli55",
                   "title": "",
                   "rel": "",
                   "anchorType": 0
                 }],
                 "layout": 10,
                 "metadata": {
-                  "id": "1*OeFBbwVHH6x7yQTt6RMMMw.png",
-                  "originalWidth": 4709,
-                  "originalHeight": 3141
-                }
-              }, {
-                "name": "eb35",
-                "type": 1,
-                "text": "True insight is a natural (but not a normal) occasion.",
-                "markups": [],
-                "hasDropCap": true,
-                "alignment": 1
-              }],
-              "sections": [{
-                "startIndex": 0
-              }]
-            },
-            "isFullContent": false
-          },
-          "license": 0,
-          "inResponseToMediaResourceId": "",
-          "canonicalUrl": "",
-          "approvedHomeCollectionId": "d0222a67990e",
-          "newsletterId": "",
-          "webCanonicalUrl": "",
-          "mediumUrl": "",
-          "migrationId": "",
-          "notifyFollowers": true,
-          "notifyTwitter": false,
-          "isSponsored": false,
-          "isRequestToPubDisabled": false,
-          "notifyFacebook": false,
-          "type": "Post"
-        },
-        "4f265d5bebd0": {
-          "id": "4f265d5bebd0",
-          "versionId": "e0daa21d599e",
-          "creatorId": "46b03c875ccb",
-          "homeCollectionId": "d0222a67990e",
-          "title": "Being thunk by thought",
-          "detectedLanguage": "en",
-          "latestVersion": "e0daa21d599e",
-          "latestPublishedVersion": "e0daa21d599e",
-          "hasUnpublishedEdits": false,
-          "latestRev": 433,
-          "createdAt": 1470688660660,
-          "updatedAt": 1471370945492,
-          "acceptedAt": 0,
-          "firstPublishedAt": 1470717663359,
-          "latestPublishedAt": 1470747286514,
-          "vote": false,
-          "experimentalCss": "",
-          "displayAuthor": "",
-          "content": {
-            "subtitle": "What if we aren’t the ones doing the thinking, but instead, are being thunk by this thing — this phenomenon — called thought?",
-            "postDisplay": {
-              "coverless": true
-            }
-          },
-          "virtuals": {
-            "statusForCollection": "APPROVED",
-            "createdAtRelative": "11 days ago",
-            "updatedAtRelative": "3 days ago",
-            "acceptedAtRelative": "",
-            "createdAtEnglish": "August 8, 2016",
-            "updatedAtEnglish": "August 16, 2016",
-            "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 8, 2016",
-            "latestPublishedAtEnglish": "August 9, 2016",
-            "allowNotes": true,
-            "snippet": "What if we aren’t the ones doing the thinking, but instead, are being thunk by this thing — this phenomenon — called thought?",
-            "previewImage": {
-              "imageId": "1*jcgVDGq76kgnJWiGHCHe7A.png",
-              "filter": "",
-              "backgroundSize": "",
-              "originalWidth": 5760,
-              "originalHeight": 3840,
-              "strategy": "resample",
-              "height": 0,
-              "width": 0
-            },
-            "wordCount": 408,
-            "imageCount": 1,
-            "readingTime": 1.739622641509434,
-            "subtitle": "What if we aren’t the ones doing the thinking, but instead, are being thunk by this thing — this phenomenon — called thought?",
-            "publishedInCount": 1,
-            "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 9",
-            "firstPublishedAtAbbreviated": "Aug 8",
-            "emailSnippet": "How would that change the way you see your human experience?\n\nWould it seem lighter? More intimidating? Neither?\n\nI used to think I could release bad thoughts.\n\nUntil I tried. And they grew in intensity.\n\nSeeing thought as a type of mental heartbeat changed things for me (and made a lot of sense). Here’s how it seems to work…\n\nThoughts come through the screen of our awareness.\n\nTha-thump. Tha-thump.",
-            "recommends": 47,
-            "isBookmarked": false,
-            "tags": [{
-              "slug": "thoughts",
-              "name": "Thoughts",
-              "postCount": 4160,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 106,
-                "postCount": 4160,
-                "coverImage": {
-                  "id": "1*lCYw_HkfZSMPGfGtJvLWOw.jpeg",
-                  "originalWidth": 740,
-                  "originalHeight": 453
-                }
-              },
-              "type": "Tag"
-            }, {
-              "slug": "three-principles",
-              "name": "Three Principles",
-              "postCount": 29,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 10,
-                "postCount": 29,
-                "coverImage": {
-                  "id": "1*_zcVRDZ79FCFFeDE35OeCw.png",
-                  "originalWidth": 5184,
-                  "originalHeight": 3456
-                }
-              },
-              "type": "Tag"
-            }, {
-              "slug": "personal-development",
-              "name": "Personal Development",
-              "postCount": 10552,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 4167,
-                "postCount": 10552,
-                "coverImage": {
-                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
-                  "originalWidth": 2048,
-                  "originalHeight": 1369
-                }
-              },
-              "type": "Tag"
-            }],
-            "socialRecommendsCount": 0,
-            "responsesCreatedCount": 5,
-            "isLockedPreviewOnly": false
-          },
-          "coverless": true,
-          "slug": "being-thunk-by-thought",
-          "translationSourcePostId": "",
-          "translationSourceCreatorId": "",
-          "isApprovedTranslation": false,
-          "inResponseToPostId": "",
-          "inResponseToRemovedAt": 0,
-          "isTitleSynthesized": true,
-          "allowResponses": true,
-          "importedUrl": "",
-          "importedPublishedAt": 0,
-          "visibility": 0,
-          "uniqueSlug": "being-thunk-by-thought-4f265d5bebd0",
-          "previewContent": {
-            "bodyModel": {
-              "paragraphs": [{
-                "name": "a22b",
-                "type": 3,
-                "text": "Being thunk by thought",
-                "markups": [],
-                "alignment": 1
-              }, {
-                "name": "3cf5",
-                "type": 4,
-                "text": "",
-                "markups": [{
-                  "type": 3,
-                  "start": 7,
-                  "end": 21,
-                  "href": "https://unsplash.com/@martinsattler",
-                  "title": "",
-                  "rel": "",
-                  "anchorType": 0
-                }],
-                "layout": 10,
-                "metadata": {
-                  "id": "1*jcgVDGq76kgnJWiGHCHe7A.png",
-                  "originalWidth": 5760,
-                  "originalHeight": 3840
-                }
-              }, {
-                "name": "f784",
-                "type": 1,
-                "text": "What if we aren’t the ones doing the thinking, but instead, are being thunk by this thing — this phenomenon — called…",
-                "markups": [],
-                "alignment": 1
-              }],
-              "sections": [{
-                "startIndex": 0
-              }]
-            },
-            "isFullContent": false
-          },
-          "license": 0,
-          "inResponseToMediaResourceId": "",
-          "canonicalUrl": "",
-          "approvedHomeCollectionId": "d0222a67990e",
-          "newsletterId": "",
-          "webCanonicalUrl": "",
-          "mediumUrl": "",
-          "migrationId": "",
-          "notifyFollowers": true,
-          "notifyTwitter": false,
-          "isSponsored": false,
-          "isRequestToPubDisabled": false,
-          "notifyFacebook": false,
-          "type": "Post"
-        },
-        "3be162b31eb": {
-          "id": "3be162b31eb",
-          "versionId": "b6037bc3361a",
-          "creatorId": "46b03c875ccb",
-          "homeCollectionId": "d0222a67990e",
-          "title": "When it grips you",
-          "detectedLanguage": "en",
-          "latestVersion": "b6037bc3361a",
-          "latestPublishedVersion": "b6037bc3361a",
-          "hasUnpublishedEdits": false,
-          "latestRev": 148,
-          "createdAt": 1470587429668,
-          "updatedAt": 1471469695262,
-          "acceptedAt": 0,
-          "firstPublishedAt": 1470631261417,
-          "latestPublishedAt": 1470690751696,
-          "vote": false,
-          "experimentalCss": "",
-          "displayAuthor": "",
-          "content": {
-            "subtitle": "This is it... This is the moment.",
-            "postDisplay": {
-              "coverless": true
-            }
-          },
-          "virtuals": {
-            "statusForCollection": "APPROVED",
-            "createdAtRelative": "12 days ago",
-            "updatedAtRelative": "2 days ago",
-            "acceptedAtRelative": "",
-            "createdAtEnglish": "August 7, 2016",
-            "updatedAtEnglish": "August 17, 2016",
-            "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 7, 2016",
-            "latestPublishedAtEnglish": "August 8, 2016",
-            "allowNotes": true,
-            "snippet": "This is it... This is the moment.",
-            "previewImage": {
-              "imageId": "1*5dtY3Dj700EKFJd43EVEuw.png",
-              "filter": "",
-              "backgroundSize": "",
-              "originalWidth": 5000,
-              "originalHeight": 3333,
-              "strategy": "resample",
-              "height": 0,
-              "width": 0
-            },
-            "wordCount": 261,
-            "imageCount": 1,
-            "readingTime": 1.1849056603773584,
-            "subtitle": "This is it... This is the moment.",
-            "publishedInCount": 1,
-            "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 8",
-            "firstPublishedAtAbbreviated": "Aug 7",
-            "emailSnippet": "The ego has hooked you like a fish.\n\nYou’re totally caught up in its net.\n\nEnraptured by a story and a corresponding emotion so strong. So concrete. So seemingly real.\n\nThat you won’t allow yourself to be free.\n\nYou hear a whisper from that Higher voice. So faint. But so direct.\n\nLay your story down.\n\nIt only says it once. If you’re lucky — twice.\n\nAlmost immediately, the ego chimes back in. Louder.",
-            "recommends": 42,
-            "isBookmarked": false,
-            "tags": [{
-              "slug": "personal-development",
-              "name": "Personal Development",
-              "postCount": 10552,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 4167,
-                "postCount": 10552,
-                "coverImage": {
-                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
-                  "originalWidth": 2048,
-                  "originalHeight": 1369
-                }
-              },
-              "type": "Tag"
-            }, {
-              "slug": "fear",
-              "name": "Fear",
-              "postCount": 2801,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 93,
-                "postCount": 2801,
-                "coverImage": {
                   "id": "1*3W8itPOnsDR2AyakaFoUow.jpeg",
                   "originalWidth": 5312,
                   "originalHeight": 2988
                 }
-              },
-              "type": "Tag"
-            }, {
-              "slug": "mindfulness",
-              "name": "Mindfulness",
-              "postCount": 6114,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 1637,
-                "postCount": 6114,
-                "coverImage": {
-                  "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
-                  "originalWidth": 265,
-                  "originalHeight": 400
-                }
-              },
-              "type": "Tag"
-            }],
-            "socialRecommendsCount": 0,
-            "responsesCreatedCount": 5,
-            "isLockedPreviewOnly": false
-          },
-          "coverless": true,
-          "slug": "when-it-grips-you",
-          "translationSourcePostId": "",
-          "translationSourceCreatorId": "",
-          "isApprovedTranslation": false,
-          "inResponseToPostId": "",
-          "inResponseToRemovedAt": 0,
-          "isTitleSynthesized": true,
-          "allowResponses": true,
-          "importedUrl": "",
-          "importedPublishedAt": 0,
-          "visibility": 0,
-          "uniqueSlug": "when-it-grips-you-3be162b31eb",
-          "previewContent": {
-            "bodyModel": {
-              "paragraphs": [{
-                "name": "c881",
-                "type": 3,
-                "text": "When it grips you",
-                "markups": [],
-                "alignment": 1
               }, {
-                "name": "eb85",
-                "type": 4,
-                "text": "",
-                "markups": [{
-                  "type": 3,
-                  "start": 7,
-                  "end": 19,
-                  "href": "https://unsplash.com/@anthonytori",
-                  "title": "",
-                  "rel": "",
-                  "anchorType": 0
-                }],
-                "layout": 10,
-                "metadata": {
-                  "id": "1*5dtY3Dj700EKFJd43EVEuw.png",
-                  "originalWidth": 5000,
-                  "originalHeight": 3333
-                }
-              }, {
-                "name": "da1c",
+                "name": "97ea",
                 "type": 1,
-                "text": "This is it... This is the moment.",
+                "text": "I got a note from one of my favorite readers the other day. Here’s a snippet of what she said:",
                 "markups": [],
                 "hasDropCap": true,
                 "alignment": 1
@@ -1067,208 +729,95 @@
           "notifyFacebook": false,
           "type": "Post"
         },
-        "4ead1ee863ac": {
-          "id": "4ead1ee863ac",
-          "versionId": "aad2f34c2d4",
-          "creatorId": "46b03c875ccb",
-          "homeCollectionId": "",
-          "title": "Descriptive vs Generative: A distinction",
-          "detectedLanguage": "en",
-          "latestVersion": "aad2f34c2d4",
-          "latestPublishedVersion": "aad2f34c2d4",
-          "hasUnpublishedEdits": false,
-          "latestRev": 218,
-          "createdAt": 1469980348070,
-          "updatedAt": 1471263792542,
-          "acceptedAt": 0,
-          "firstPublishedAt": 1470544861984,
-          "latestPublishedAt": 1470544861984,
-          "vote": false,
-          "experimentalCss": "",
-          "displayAuthor": "",
-          "content": {
-            "subtitle": "Our logical, personal minds are largely descriptive. It’s all about x,y,z, what’s in front of us at the time, our identity at the moment…",
-            "postDisplay": {
-              "coverless": true
-            }
-          },
-          "virtuals": {
-            "createdAtRelative": "19 days ago",
-            "updatedAtRelative": "4 days ago",
-            "acceptedAtRelative": "",
-            "createdAtEnglish": "July 31, 2016",
-            "updatedAtEnglish": "August 15, 2016",
-            "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 6, 2016",
-            "latestPublishedAtEnglish": "August 6, 2016",
-            "allowNotes": true,
-            "snippet": "Our logical, personal minds are largely descriptive. It’s all about x,y,z, what’s in front of us at the time, our identity at the moment…",
-            "previewImage": {
-              "imageId": "1*yAYRX3YpP0yRfu_vYvXMRA.jpeg",
-              "filter": "",
-              "backgroundSize": "",
-              "originalWidth": 5616,
-              "originalHeight": 3744,
-              "strategy": "resample",
-              "height": 0,
-              "width": 0
-            },
-            "wordCount": 385,
-            "imageCount": 1,
-            "readingTime": 1.6528301886792451,
-            "subtitle": "Our logical, personal minds are largely descriptive. It’s all about x,y,z, what’s in front of us at the time, our identity at the moment…",
-            "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 6",
-            "firstPublishedAtAbbreviated": "Aug 6",
-            "emailSnippet": ", and connecting the dots that are on the paper — right here, right now.\n\nIt’s brilliant at describing things... Like, everything.\n\nI’m thankful for the descriptive mind. It helps me stay alive. It sees threats and labels them so I can get outta dodge before things get real. It tells me that red lights mean stop and green lights mean go.\n\nIt’s awesome, really.\n\nIf we largely live from the descriptive mind, we can get really good at describing stuff.",
-            "recommends": 34,
-            "isBookmarked": false,
-            "tags": [],
-            "socialRecommendsCount": 0,
-            "responsesCreatedCount": 3,
-            "isLockedPreviewOnly": false
-          },
-          "coverless": true,
-          "slug": "descriptive-vs-generative-a-distinction",
-          "translationSourcePostId": "",
-          "translationSourceCreatorId": "",
-          "isApprovedTranslation": false,
-          "inResponseToPostId": "",
-          "inResponseToRemovedAt": 0,
-          "isTitleSynthesized": true,
-          "allowResponses": true,
-          "importedUrl": "",
-          "importedPublishedAt": 0,
-          "visibility": 0,
-          "uniqueSlug": "descriptive-vs-generative-a-distinction-4ead1ee863ac",
-          "previewContent": {
-            "bodyModel": {
-              "paragraphs": [{
-                "name": "965e",
-                "type": 3,
-                "text": "Descriptive vs Generative: A distinction",
-                "markups": [],
-                "alignment": 1
-              }, {
-                "name": "af43",
-                "type": 4,
-                "text": "",
-                "markups": [{
-                  "type": 3,
-                  "start": 7,
-                  "end": 21,
-                  "href": "https://unsplash.com/@clemono2",
-                  "title": "",
-                  "rel": "",
-                  "anchorType": 0
-                }],
-                "layout": 10,
-                "metadata": {
-                  "id": "1*yAYRX3YpP0yRfu_vYvXMRA.jpeg",
-                  "originalWidth": 5616,
-                  "originalHeight": 3744
-                }
-              }, {
-                "name": "7d23",
-                "type": 1,
-                "text": "Our logical, personal minds are largely descriptive. It’s all about x,y,z, what’s in…",
-                "markups": [],
-                "hasDropCap": true,
-                "alignment": 1
-              }],
-              "sections": [{
-                "startIndex": 0
-              }]
-            },
-            "isFullContent": false
-          },
-          "license": 0,
-          "inResponseToMediaResourceId": "",
-          "canonicalUrl": "",
-          "approvedHomeCollectionId": "",
-          "newsletterId": "",
-          "webCanonicalUrl": "",
-          "mediumUrl": "",
-          "migrationId": "",
-          "notifyFollowers": true,
-          "notifyTwitter": false,
-          "isSponsored": false,
-          "isRequestToPubDisabled": false,
-          "notifyFacebook": false,
-          "type": "Post"
-        },
-        "a3441de9bc44": {
-          "id": "a3441de9bc44",
-          "versionId": "f2ff1583cead",
+        "988f3fe7cc3f": {
+          "id": "988f3fe7cc3f",
+          "versionId": "82746721394e",
           "creatorId": "46b03c875ccb",
           "homeCollectionId": "d0222a67990e",
-          "title": "Thought just passes through",
+          "title": "Insecurity",
           "detectedLanguage": "en",
-          "latestVersion": "f2ff1583cead",
-          "latestPublishedVersion": "f2ff1583cead",
+          "latestVersion": "82746721394e",
+          "latestPublishedVersion": "82746721394e",
           "hasUnpublishedEdits": false,
-          "latestRev": 290,
-          "createdAt": 1468098092395,
-          "updatedAt": 1471305083804,
+          "latestRev": 345,
+          "createdAt": 1471265196589,
+          "updatedAt": 1471583566520,
           "acceptedAt": 0,
-          "firstPublishedAt": 1470458461624,
-          "latestPublishedAt": 1470458461624,
+          "firstPublishedAt": 1471408861516,
+          "latestPublishedAt": 1471408861516,
           "vote": false,
           "experimentalCss": "",
           "displayAuthor": "",
           "content": {
-            "subtitle": "When Rory gets mad, it’s like watching a heavy thunderstorm. She huffs and puffs and wails and rains down thunder and hail with zero…",
+            "subtitle": "There’s one common enemy that contaminates deeper feeling, turning it into negative emotion:",
             "postDisplay": {
               "coverless": true
             }
           },
           "virtuals": {
             "statusForCollection": "APPROVED",
-            "createdAtRelative": "a month ago",
-            "updatedAtRelative": "4 days ago",
+            "createdAtRelative": "4 days ago",
+            "updatedAtRelative": "17 hours ago",
             "acceptedAtRelative": "",
-            "createdAtEnglish": "July 9, 2016",
-            "updatedAtEnglish": "August 15, 2016",
+            "createdAtEnglish": "August 15, 2016",
+            "updatedAtEnglish": "August 18, 2016",
             "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 5, 2016",
-            "latestPublishedAtEnglish": "August 5, 2016",
+            "firstPublishedAtEnglish": "August 16, 2016",
+            "latestPublishedAtEnglish": "August 16, 2016",
             "allowNotes": true,
-            "snippet": "When Rory gets mad, it’s like watching a heavy thunderstorm. She huffs and puffs and wails and rains down thunder and hail with zero…",
+            "snippet": "There’s one common enemy that contaminates deeper feeling, turning it into negative emotion:",
             "previewImage": {
-              "imageId": "1*GvxNac7Kqi8nE2p4qZa-aA.png",
+              "imageId": "1*_zcVRDZ79FCFFeDE35OeCw.png",
               "filter": "",
               "backgroundSize": "",
               "originalWidth": 5184,
-              "originalHeight": 3156,
+              "originalHeight": 3456,
               "strategy": "resample",
               "height": 0,
               "width": 0
             },
-            "wordCount": 376,
+            "wordCount": 414,
             "imageCount": 1,
-            "readingTime": 1.6188679245283017,
-            "subtitle": "When Rory gets mad, it’s like watching a heavy thunderstorm. She huffs and puffs and wails and rains down thunder and hail with zero…",
+            "readingTime": 1.7622641509433963,
+            "subtitle": "There’s one common enemy that contaminates deeper feeling, turning it into negative emotion:",
             "publishedInCount": 1,
             "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 5",
-            "firstPublishedAtAbbreviated": "Aug 5",
-            "emailSnippet": "abandon.\n\nAnd then, she’s fine. The sun comes back up. Her blue eyes shine again. And all is well in toddler-land.\n\nIt never ceases to ASTOUND me how, when that thunderstorm passes, it’s long gone. Not a cloud in sight.\n\nWhat have I learned from my little guru because of this fascinating behavioral trait?\n\nThought just passes through (if we let it).\n\nWe do this naturally as kids, but when we become ‘socialized’ we teach ourselves to hold on to our pain so as to (a) avoid embarrassment and (b…",
-            "recommends": 32,
+            "latestPublishedAtAbbreviated": "Aug 16",
+            "firstPublishedAtAbbreviated": "Aug 16",
+            "emailSnippet": "Insecurity (fear on wheels)…\n\nTake any deep feeling — any positive emotion — add insecurity, and there you are, in the middle of the sh*t.\n\nHere are a fistful of examples…\n\nExhilaration+Insecurity=Excitement\n\nExhilaration is a deeper feeling that fills us up and inspires us. It makes us thrilled about life. We’re enthused, but we’re calm and our energy level is high. Add insecurity and we become excited.",
+            "recommends": 60,
             "isBookmarked": false,
             "tags": [{
-              "slug": "thoughts",
-              "name": "Thoughts",
-              "postCount": 4160,
+              "slug": "personal-development",
+              "name": "Personal Development",
+              "postCount": 10570,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 106,
-                "postCount": 4160,
+                "followerCount": 4179,
+                "postCount": 10570,
                 "coverImage": {
-                  "id": "1*lCYw_HkfZSMPGfGtJvLWOw.jpeg",
-                  "originalWidth": 740,
-                  "originalHeight": 453
+                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
+                  "originalWidth": 2048,
+                  "originalHeight": 1369
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "mindfulness",
+              "name": "Mindfulness",
+              "postCount": 6128,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 1639,
+                "postCount": 6128,
+                "coverImage": {
+                  "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
+                  "originalWidth": 265,
+                  "originalHeight": 400
                 }
               },
               "type": "Tag"
@@ -1289,30 +838,13 @@
                 }
               },
               "type": "Tag"
-            }, {
-              "slug": "mindfulness",
-              "name": "Mindfulness",
-              "postCount": 6114,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 1637,
-                "postCount": 6114,
-                "coverImage": {
-                  "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
-                  "originalWidth": 265,
-                  "originalHeight": 400
-                }
-              },
-              "type": "Tag"
             }],
             "socialRecommendsCount": 0,
-            "responsesCreatedCount": 5,
+            "responsesCreatedCount": 6,
             "isLockedPreviewOnly": false
           },
           "coverless": true,
-          "slug": "thought-just-passes-through",
+          "slug": "insecurity",
           "translationSourcePostId": "",
           "translationSourceCreatorId": "",
           "isApprovedTranslation": false,
@@ -1323,38 +855,38 @@
           "importedUrl": "",
           "importedPublishedAt": 0,
           "visibility": 0,
-          "uniqueSlug": "thought-just-passes-through-a3441de9bc44",
+          "uniqueSlug": "insecurity-988f3fe7cc3f",
           "previewContent": {
             "bodyModel": {
               "paragraphs": [{
-                "name": "2dac",
+                "name": "780d",
                 "type": 3,
-                "text": "Thought just passes through",
+                "text": "Insecurity",
                 "markups": [],
                 "alignment": 1
               }, {
-                "name": "300f",
+                "name": "87fd",
                 "type": 4,
                 "text": "",
                 "markups": [{
                   "type": 3,
                   "start": 7,
                   "end": 19,
-                  "href": "https://unsplash.com/@irenpetrova",
+                  "href": "https://unsplash.com/@steve098",
                   "title": "",
                   "rel": "",
                   "anchorType": 0
                 }],
                 "layout": 10,
                 "metadata": {
-                  "id": "1*GvxNac7Kqi8nE2p4qZa-aA.png",
+                  "id": "1*_zcVRDZ79FCFFeDE35OeCw.png",
                   "originalWidth": 5184,
-                  "originalHeight": 3156
+                  "originalHeight": 3456
                 }
               }, {
-                "name": "c9ba",
+                "name": "a874",
                 "type": 1,
-                "text": "When Rory gets mad, it’s like watching a heavy thunderstorm. She huffs and puffs and wails and rains down…",
+                "text": "There’s one common enemy that contaminates deeper feeling, turning it into negative emotion:",
                 "markups": [],
                 "hasDropCap": true,
                 "alignment": 1
@@ -1380,89 +912,267 @@
           "notifyFacebook": false,
           "type": "Post"
         },
-        "83c52b8db8b8": {
-          "id": "83c52b8db8b8",
-          "versionId": "fe61a0d6eb85",
+        "13506fa402bd": {
+          "id": "13506fa402bd",
+          "versionId": "6570a3f327f4",
           "creatorId": "46b03c875ccb",
           "homeCollectionId": "d0222a67990e",
-          "title": "Unaccustomed to simplicity",
+          "title": "Zero compassion towards problems",
           "detectedLanguage": "en",
-          "latestVersion": "fe61a0d6eb85",
-          "latestPublishedVersion": "fe61a0d6eb85",
+          "latestVersion": "6570a3f327f4",
+          "latestPublishedVersion": "6570a3f327f4",
           "hasUnpublishedEdits": false,
-          "latestRev": 121,
-          "createdAt": 1470355960685,
-          "updatedAt": 1471301352483,
+          "latestRev": 129,
+          "createdAt": 1471204496879,
+          "updatedAt": 1471589066422,
           "acceptedAt": 0,
-          "firstPublishedAt": 1470372062482,
-          "latestPublishedAt": 1470372062482,
+          "firstPublishedAt": 1471322461637,
+          "latestPublishedAt": 1471323036163,
           "vote": false,
           "experimentalCss": "",
           "displayAuthor": "",
           "content": {
-            "subtitle": "It’s almost always more simple than we make it.",
+            "subtitle": "A high-flame approach to the true meaning of compassion",
             "postDisplay": {
               "coverless": true
             }
           },
           "virtuals": {
             "statusForCollection": "APPROVED",
-            "createdAtRelative": "15 days ago",
-            "updatedAtRelative": "4 days ago",
+            "createdAtRelative": "5 days ago",
+            "updatedAtRelative": "15 hours ago",
             "acceptedAtRelative": "",
-            "createdAtEnglish": "August 4, 2016",
-            "updatedAtEnglish": "August 15, 2016",
+            "createdAtEnglish": "August 14, 2016",
+            "updatedAtEnglish": "August 18, 2016",
             "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 4, 2016",
-            "latestPublishedAtEnglish": "August 4, 2016",
+            "firstPublishedAtEnglish": "August 15, 2016",
+            "latestPublishedAtEnglish": "August 15, 2016",
             "allowNotes": true,
-            "snippet": "It’s almost always more simple than we make it.",
+            "snippet": "A high-flame approach to the true meaning of compassion",
             "previewImage": {
-              "imageId": "1*frmMywNyGB3GiIBz_Bm7aA.png",
+              "imageId": "1*B5L0aVbrafEiIHPIwW7ANQ.png",
               "filter": "",
               "backgroundSize": "",
-              "originalWidth": 3600,
-              "originalHeight": 2400,
+              "originalWidth": 4773,
+              "originalHeight": 3264,
               "strategy": "resample",
               "height": 0,
               "width": 0
             },
-            "wordCount": 242,
+            "wordCount": 235,
             "imageCount": 1,
-            "readingTime": 1.1132075471698113,
-            "subtitle": "It’s almost always more simple than we make it.",
+            "readingTime": 1.0867924528301887,
+            "subtitle": "A high-flame approach to the true meaning of compassion",
             "publishedInCount": 1,
             "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 4",
-            "firstPublishedAtAbbreviated": "Aug 4",
-            "emailSnippet": "In our work... In our relationships... In our finances… In our health… In our lives...\n\nI like being what I call, ‘curiously dumb’ about things.\n\nWhen I allow myself to be curiously dumb, things ‘occur’ to me more. Fresh thinking seems to happen more than when I think I have it (or should have it) all figured out.\n\nI guess this is my way of expressing the whole ‘empty cup’ concept.\n\nMost of us have been raised to believe that — in order to know something, we have to fill our brains full of…",
-            "recommends": 49,
+            "latestPublishedAtAbbreviated": "Aug 15",
+            "firstPublishedAtAbbreviated": "Aug 15",
+            "emailSnippet": "I don’t care about your problems.\n\nI don’t care about my problems.\n\nI give zero sh*ts about how bad things are right now for you, for me, or for the world.\n\nAnd the way I see it, this is the highest form of compassion there is.\n\nIf I’m in a trance where I’m feeling sorry for you or feeling horrible about a certain sect of people’s plight — I have nothing to offer.\n\nFeeling sorry for anyone or anything for more than about 2 seconds is the opposite of compassion because I’m buying into the story…",
+            "recommends": 38,
             "isBookmarked": false,
             "tags": [{
-              "slug": "life-lessons",
-              "name": "Life Lessons",
-              "postCount": 72383,
+              "slug": "personal-development",
+              "name": "Personal Development",
+              "postCount": 10570,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 441593,
-                "postCount": 72383,
+                "followerCount": 4179,
+                "postCount": 10570,
+                "coverImage": {
+                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
+                  "originalWidth": 2048,
+                  "originalHeight": 1369
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "motivation",
+              "name": "Motivation",
+              "postCount": 10507,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 2524,
+                "postCount": 10507,
+                "coverImage": {
+                  "id": "0*5aMxtjNXBHpP0tgp.",
+                  "originalWidth": 2000,
+                  "originalHeight": 1279
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "coaching",
+              "name": "Coaching",
+              "postCount": 3177,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 367,
+                "postCount": 3177,
+                "coverImage": {
+                  "id": "1*UQBI_kRwHhmQchCVDscdgg.jpeg",
+                  "originalWidth": 2448,
+                  "originalHeight": 2448
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 7,
+            "isLockedPreviewOnly": false
+          },
+          "coverless": true,
+          "slug": "zero-compassion-towards-your-problems",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "zero-compassion-towards-your-problems-13506fa402bd",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "8768",
+                "type": 3,
+                "text": "Zero compassion towards problems",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "6e5f",
+                "type": 13,
+                "text": "A high-flame approach to the true meaning of compassion",
+                "markups": [],
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "d0222a67990e",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "type": "Post"
+        },
+        "cf3c886f8424": {
+          "id": "cf3c886f8424",
+          "versionId": "f7c6098a5405",
+          "creatorId": "46b03c875ccb",
+          "homeCollectionId": "d0222a67990e",
+          "title": "Source, not circumstance",
+          "detectedLanguage": "en",
+          "latestVersion": "f7c6098a5405",
+          "latestPublishedVersion": "f7c6098a5405",
+          "hasUnpublishedEdits": false,
+          "latestRev": 505,
+          "createdAt": 1471200557341,
+          "updatedAt": 1471569933121,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1471236062078,
+          "latestPublishedAt": 1471236062078,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "A brief synopsis about Creative Living",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "APPROVED",
+            "createdAtRelative": "5 days ago",
+            "updatedAtRelative": "21 hours ago",
+            "acceptedAtRelative": "",
+            "createdAtEnglish": "August 14, 2016",
+            "updatedAtEnglish": "August 18, 2016",
+            "acceptedAtEnglish": "",
+            "firstPublishedAtEnglish": "August 14, 2016",
+            "latestPublishedAtEnglish": "August 14, 2016",
+            "allowNotes": true,
+            "snippet": "A brief synopsis about Creative Living",
+            "previewImage": {
+              "imageId": "1*QaXEzBBIv2I77fzxhOKF3A.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 4000,
+              "originalHeight": 2670,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 523,
+            "imageCount": 1,
+            "readingTime": 2.1735849056603773,
+            "subtitle": "A brief synopsis about Creative Living",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "latestPublishedAtAbbreviated": "Aug 14",
+            "firstPublishedAtAbbreviated": "Aug 14",
+            "emailSnippet": "Your moment-to-moment experience comes from Source, not circumstance…\n\n(Ever.)\n\nHuman experience is derived completely from thought. Thought flows from Source — from the infinite intelligence within — through the prism of our consciousness and onto the screen of our minds where it becomes ‘real’.\n\nNot the other way around.\n\nIt’s a beautiful design. Only problem is when we don’t understand it.\n\nSee, we can think whatever we want.",
+            "recommends": 58,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "creativity",
+              "name": "Creativity",
+              "postCount": 13972,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 606857,
+                "postCount": 13972,
+                "coverImage": {
+                  "id": "1*l_a4u4eO-owLFDUNT6qYFw.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "life-lessons",
+              "name": "Life Lessons",
+              "postCount": 72457,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 442262,
+                "postCount": 72457,
                 "coverImage": {
                   "id": "1*xJV8uYsDYrnDwulfbMByRQ.jpeg"
                 }
               },
               "type": "Tag"
             }, {
-              "slug": "mindfulness",
-              "name": "Mindfulness",
-              "postCount": 6114,
+              "slug": "spirituality",
+              "name": "Spirituality",
+              "postCount": 7589,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 1637,
-                "postCount": 6114,
+                "followerCount": 25252,
+                "postCount": 7589,
                 "coverImage": {
                   "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
                   "originalWidth": 265,
@@ -1470,20 +1180,183 @@
                 }
               },
               "type": "Tag"
-            }, {
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "isLockedPreviewOnly": false
+          },
+          "coverless": true,
+          "slug": "source-not-circumstance",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "source-not-circumstance-cf3c886f8424",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "5ee5",
+                "type": 3,
+                "text": "Source, not circumstance",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "9456",
+                "type": 13,
+                "text": "A brief synopsis about Creative Living",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "0cae",
+                "type": 4,
+                "text": "",
+                "markups": [{
+                  "type": 3,
+                  "start": 7,
+                  "end": 25,
+                  "href": "https://unsplash.com/@nicodigio",
+                  "title": "",
+                  "rel": "",
+                  "anchorType": 0
+                }],
+                "layout": 10,
+                "metadata": {
+                  "id": "1*QaXEzBBIv2I77fzxhOKF3A.png",
+                  "originalWidth": 4000,
+                  "originalHeight": 2670
+                }
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "d0222a67990e",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "type": "Post"
+        },
+        "3e10cb827c2f": {
+          "id": "3e10cb827c2f",
+          "versionId": "f518f271f351",
+          "creatorId": "46b03c875ccb",
+          "homeCollectionId": "d0222a67990e",
+          "title": "How real is your dream?",
+          "detectedLanguage": "en",
+          "latestVersion": "f518f271f351",
+          "latestPublishedVersion": "f518f271f351",
+          "hasUnpublishedEdits": false,
+          "latestRev": 384,
+          "createdAt": 1471106331850,
+          "updatedAt": 1471588793021,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1471149662541,
+          "latestPublishedAt": 1471149662541,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "“Michael Jackson was SET UP!”",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "APPROVED",
+            "createdAtRelative": "6 days ago",
+            "updatedAtRelative": "15 hours ago",
+            "acceptedAtRelative": "",
+            "createdAtEnglish": "August 13, 2016",
+            "updatedAtEnglish": "August 18, 2016",
+            "acceptedAtEnglish": "",
+            "firstPublishedAtEnglish": "August 13, 2016",
+            "latestPublishedAtEnglish": "August 13, 2016",
+            "allowNotes": true,
+            "snippet": "“Michael Jackson was SET UP!”",
+            "previewImage": {
+              "imageId": "1*w4DquT-w9V4PT8LgeDxeFw.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 6016,
+              "originalHeight": 4016,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 616,
+            "imageCount": 1,
+            "readingTime": 2.5245283018867926,
+            "subtitle": "“Michael Jackson was SET UP!”",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "latestPublishedAtAbbreviated": "Aug 13",
+            "firstPublishedAtAbbreviated": "Aug 13",
+            "emailSnippet": "This is the message I was bombarded with as I walked into the office this morning.\n\nOur office is on a little one way street in downtown Reno. We call it an alley. Even though it’s technically not an alley. Anyways…\n\nWe get a high number of — what’s the politically correct term here, transient folks — here in this alley. The tall apartment building that sits next door to our office provides ample nooks for them to set up shop and crash for the night away from the main streets of Reno.",
+            "recommends": 24,
+            "isBookmarked": false,
+            "tags": [{
               "slug": "personal-development",
               "name": "Personal Development",
-              "postCount": 10552,
+              "postCount": 10570,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 4167,
-                "postCount": 10552,
+                "followerCount": 4179,
+                "postCount": 10570,
                 "coverImage": {
                   "id": "1*CrudMybVm8peqPPIrgAitg.png",
                   "originalWidth": 2048,
                   "originalHeight": 1369
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "life-lessons",
+              "name": "Life Lessons",
+              "postCount": 72457,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 442262,
+                "postCount": 72457,
+                "coverImage": {
+                  "id": "1*xJV8uYsDYrnDwulfbMByRQ.jpeg"
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "three-principles",
+              "name": "Three Principles",
+              "postCount": 29,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10,
+                "postCount": 29,
+                "coverImage": {
+                  "id": "1*_zcVRDZ79FCFFeDE35OeCw.png",
+                  "originalWidth": 5184,
+                  "originalHeight": 3456
                 }
               },
               "type": "Tag"
@@ -1493,7 +1366,7 @@
             "isLockedPreviewOnly": false
           },
           "coverless": true,
-          "slug": "unaccustomed-to-simplicity",
+          "slug": "how-real-is-your-dream",
           "translationSourcePostId": "",
           "translationSourceCreatorId": "",
           "isApprovedTranslation": false,
@@ -1504,38 +1377,225 @@
           "importedUrl": "",
           "importedPublishedAt": 0,
           "visibility": 0,
-          "uniqueSlug": "unaccustomed-to-simplicity-83c52b8db8b8",
+          "uniqueSlug": "how-real-is-your-dream-3e10cb827c2f",
           "previewContent": {
             "bodyModel": {
               "paragraphs": [{
-                "name": "28f4",
+                "name": "9fc0",
                 "type": 3,
-                "text": "Unaccustomed to simplicity",
+                "text": "How real is your dream?",
                 "markups": [],
                 "alignment": 1
               }, {
-                "name": "0734",
+                "name": "823f",
                 "type": 4,
                 "text": "",
                 "markups": [{
                   "type": 3,
                   "start": 7,
-                  "end": 14,
-                  "href": "https://unsplash.com/@mattlephoto",
+                  "end": 18,
+                  "href": "https://unsplash.com/@chuttersnap",
                   "title": "",
                   "rel": "",
                   "anchorType": 0
                 }],
                 "layout": 10,
                 "metadata": {
-                  "id": "1*frmMywNyGB3GiIBz_Bm7aA.png",
-                  "originalWidth": 3600,
-                  "originalHeight": 2400
+                  "id": "1*w4DquT-w9V4PT8LgeDxeFw.png",
+                  "originalWidth": 6016,
+                  "originalHeight": 4016
                 }
               }, {
-                "name": "2fe5",
+                "name": "aae4",
                 "type": 1,
-                "text": "It’s almost always more simple than we make it.",
+                "text": "“Michael Jackson was SET UP!”",
+                "markups": [{
+                  "type": 2,
+                  "start": 0,
+                  "end": 28
+                }],
+                "hasDropCap": true,
+                "alignment": 1
+              }],
+              "sections": [{
+                "startIndex": 0
+              }]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "d0222a67990e",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "type": "Post"
+        },
+        "a18491f951e7": {
+          "id": "a18491f951e7",
+          "versionId": "523704c4d6b",
+          "creatorId": "46b03c875ccb",
+          "homeCollectionId": "d0222a67990e",
+          "title": "It’s not ‘what’ you think",
+          "detectedLanguage": "en",
+          "latestVersion": "523704c4d6b",
+          "latestPublishedVersion": "523704c4d6b",
+          "hasUnpublishedEdits": false,
+          "latestRev": 469,
+          "createdAt": 1471028367510,
+          "updatedAt": 1471573589907,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1471063262498,
+          "latestPublishedAt": 1471063262498,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Positive thinking is a lot of damn work.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "APPROVED",
+            "createdAtRelative": "7 days ago",
+            "updatedAtRelative": "20 hours ago",
+            "acceptedAtRelative": "",
+            "createdAtEnglish": "August 12, 2016",
+            "updatedAtEnglish": "August 18, 2016",
+            "acceptedAtEnglish": "",
+            "firstPublishedAtEnglish": "August 12, 2016",
+            "latestPublishedAtEnglish": "August 12, 2016",
+            "allowNotes": true,
+            "snippet": "Positive thinking is a lot of damn work.",
+            "previewImage": {
+              "imageId": "1*QR3rYEEpCIyjt1wMfqsdig.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 4928,
+              "originalHeight": 3280,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 703,
+            "imageCount": 1,
+            "readingTime": 2.8528301886792455,
+            "subtitle": "Positive thinking is a lot of damn work.",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "latestPublishedAtAbbreviated": "Aug 12",
+            "firstPublishedAtAbbreviated": "Aug 12",
+            "emailSnippet": "All those affirmations and voodoo tricks of the mind designed to ‘make us happy’.\n\nSome people even completely revamp their living/working spaces so that every square foot is filled with a mantra or a talisman designed to get their thoughts back to positive.\n\n(Question: What happens if they have to go to the store or something? Are they totally screwed then?)\n\nIt’s all good. Positive thinking is wonderful.",
+            "recommends": 57,
+            "isBookmarked": false,
+            "tags": [{
+              "slug": "personal-development",
+              "name": "Personal Development",
+              "postCount": 10570,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 4179,
+                "postCount": 10570,
+                "coverImage": {
+                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
+                  "originalWidth": 2048,
+                  "originalHeight": 1369
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "mindfulness",
+              "name": "Mindfulness",
+              "postCount": 6128,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 1639,
+                "postCount": 6128,
+                "coverImage": {
+                  "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
+                  "originalWidth": 265,
+                  "originalHeight": 400
+                }
+              },
+              "type": "Tag"
+            }, {
+              "slug": "three-principles",
+              "name": "Three Principles",
+              "postCount": 29,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10,
+                "postCount": 29,
+                "coverImage": {
+                  "id": "1*_zcVRDZ79FCFFeDE35OeCw.png",
+                  "originalWidth": 5184,
+                  "originalHeight": 3456
+                }
+              },
+              "type": "Tag"
+            }],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 2,
+            "isLockedPreviewOnly": false
+          },
+          "coverless": true,
+          "slug": "its-not-what-you-think",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "its-not-what-you-think-a18491f951e7",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [{
+                "name": "02e6",
+                "type": 3,
+                "text": "It’s not ‘what’ you think",
+                "markups": [],
+                "alignment": 1
+              }, {
+                "name": "d6c5",
+                "type": 4,
+                "text": "",
+                "markups": [{
+                  "type": 3,
+                  "start": 7,
+                  "end": 20,
+                  "href": "https://unsplash.com/@frankiefoto",
+                  "title": "",
+                  "rel": "",
+                  "anchorType": 0
+                }],
+                "layout": 10,
+                "metadata": {
+                  "id": "1*QR3rYEEpCIyjt1wMfqsdig.png",
+                  "originalWidth": 4928,
+                  "originalHeight": 3280
+                }
+              }, {
+                "name": "19fa",
+                "type": 1,
+                "text": "Positive thinking is a lot of damn work.",
                 "markups": [],
                 "hasDropCap": true,
                 "alignment": 1
@@ -1561,65 +1621,82 @@
           "notifyFacebook": false,
           "type": "Post"
         },
-        "fadca6dd2432": {
-          "id": "fadca6dd2432",
-          "versionId": "d7516297093c",
+        "cca88500a478": {
+          "id": "cca88500a478",
+          "versionId": "aea78190b803",
           "creatorId": "46b03c875ccb",
           "homeCollectionId": "d0222a67990e",
-          "title": "When the ‘what-ifs’ multiply",
+          "title": "Finding the bus stop of epiphany 🚌",
           "detectedLanguage": "en",
-          "latestVersion": "d7516297093c",
-          "latestPublishedVersion": "d7516297093c",
+          "latestVersion": "aea78190b803",
+          "latestPublishedVersion": "aea78190b803",
           "hasUnpublishedEdits": false,
-          "latestRev": 115,
-          "createdAt": 1470268543841,
-          "updatedAt": 1470875802528,
+          "latestRev": 430,
+          "createdAt": 1470929878597,
+          "updatedAt": 1471442224784,
           "acceptedAt": 0,
-          "firstPublishedAt": 1470285662261,
-          "latestPublishedAt": 1470285662261,
+          "firstPublishedAt": 1470976862708,
+          "latestPublishedAt": 1470976862708,
           "vote": false,
           "experimentalCss": "",
           "displayAuthor": "",
           "content": {
-            "subtitle": "I was going to write this post all on my own, but I realized Shel Silverstein said it best…",
+            "subtitle": "Intellectual belief is something a lot of people seem to worship, in a way. They need the proof, the numbers, the stats, the case studies…",
             "postDisplay": {
               "coverless": true
             }
           },
           "virtuals": {
             "statusForCollection": "APPROVED",
-            "createdAtRelative": "16 days ago",
-            "updatedAtRelative": "9 days ago",
+            "createdAtRelative": "8 days ago",
+            "updatedAtRelative": "2 days ago",
             "acceptedAtRelative": "",
-            "createdAtEnglish": "August 3, 2016",
-            "updatedAtEnglish": "August 10, 2016",
+            "createdAtEnglish": "August 11, 2016",
+            "updatedAtEnglish": "August 17, 2016",
             "acceptedAtEnglish": "",
-            "firstPublishedAtEnglish": "August 3, 2016",
-            "latestPublishedAtEnglish": "August 3, 2016",
+            "firstPublishedAtEnglish": "August 11, 2016",
+            "latestPublishedAtEnglish": "August 11, 2016",
             "allowNotes": true,
-            "snippet": "I was going to write this post all on my own, but I realized Shel Silverstein said it best…",
+            "snippet": "Intellectual belief is something a lot of people seem to worship, in a way. They need the proof, the numbers, the stats, the case studies…",
             "previewImage": {
-              "imageId": "1*S-TbUBWIEvVTTcviw7Or1g.png",
+              "imageId": "1*0gF_wr_ZbH1uEOimrW8ClQ.png",
               "filter": "",
               "backgroundSize": "",
-              "originalWidth": 6016,
-              "originalHeight": 4016,
+              "originalWidth": 3910,
+              "originalHeight": 2603,
               "strategy": "resample",
               "height": 0,
               "width": 0
             },
-            "wordCount": 338,
+            "wordCount": 738,
             "imageCount": 1,
-            "readingTime": 1.4754716981132074,
-            "subtitle": "I was going to write this post all on my own, but I realized Shel Silverstein said it best…",
+            "readingTime": 2.9849056603773585,
+            "subtitle": "Intellectual belief is something a lot of people seem to worship, in a way. They need the proof, the numbers, the stats, the case studies…",
             "publishedInCount": 1,
             "usersBySocialRecommends": [],
-            "latestPublishedAtAbbreviated": "Aug 3",
-            "firstPublishedAtAbbreviated": "Aug 3",
-            "emailSnippet": "…\n\nWhatif\n\nLast night, while I lay thinking here,\nSome Whatifs crawled inside my ear\nAnd pranced and partied all night long\nAnd sang their same old Whatif song:\nWhatif I’m dumb in school?\nWhatif they’ve closed the swimming pol?\nWhatif I get beat up?\nWhatif there’s poison in my cup?\nWhatif I start to cry?\nWhatif I get sick and die?\nWhatif I flunk that test?\nWhatif green hair grows on my chest?\nWhatif nobody likes me?",
-            "recommends": 39,
+            "latestPublishedAtAbbreviated": "Aug 11",
+            "firstPublishedAtAbbreviated": "Aug 11",
+            "emailSnippet": ". For them to believe it — it must be field-tested and cited by experts.\n\nMy dad smoked multiple packs of cigarettes from age 20-ish until he was in his mid-50’s. Mind you, he was a ‘smart’ man. Very analytical. Shrewdly so, in fact.\n\nHe knew the numbers. He saw the TV programs about people dying of lung cancer and all kinds of other cancer. He saw his own relatives and friends become diagnosed with all kinds of horrible ailments from smoking.",
+            "recommends": 50,
             "isBookmarked": false,
             "tags": [{
+              "slug": "personal-development",
+              "name": "Personal Development",
+              "postCount": 10570,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 4179,
+                "postCount": 10570,
+                "coverImage": {
+                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
+                  "originalWidth": 2048,
+                  "originalHeight": 1369
+                }
+              },
+              "type": "Tag"
+            }, {
               "slug": "three-principles",
               "name": "Three Principles",
               "postCount": 29,
@@ -1637,46 +1714,27 @@
               },
               "type": "Tag"
             }, {
-              "slug": "personal-development",
-              "name": "Personal Development",
-              "postCount": 10552,
+              "slug": "inspiration",
+              "name": "Inspiration",
+              "postCount": 15408,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 4167,
-                "postCount": 10552,
+                "followerCount": 503477,
+                "postCount": 15408,
                 "coverImage": {
-                  "id": "1*CrudMybVm8peqPPIrgAitg.png",
-                  "originalWidth": 2048,
-                  "originalHeight": 1369
-                }
-              },
-              "type": "Tag"
-            }, {
-              "slug": "mindfulness",
-              "name": "Mindfulness",
-              "postCount": 6114,
-              "virtuals": {
-                "isFollowing": false
-              },
-              "metadata": {
-                "followerCount": 1637,
-                "postCount": 6114,
-                "coverImage": {
-                  "id": "1*FHHTxk3nXCBYGzv8CojR9w.png",
-                  "originalWidth": 265,
-                  "originalHeight": 400
+                  "id": "1*PlvnszXynxE8qwo9zYdQEg.jpeg"
                 }
               },
               "type": "Tag"
             }],
             "socialRecommendsCount": 0,
-            "responsesCreatedCount": 4,
+            "responsesCreatedCount": 5,
             "isLockedPreviewOnly": false
           },
           "coverless": true,
-          "slug": "when-the-what-ifs-multiply",
+          "slug": "finding-the-bus-stop-of-epiphany",
           "translationSourcePostId": "",
           "translationSourceCreatorId": "",
           "isApprovedTranslation": false,
@@ -1687,38 +1745,38 @@
           "importedUrl": "",
           "importedPublishedAt": 0,
           "visibility": 0,
-          "uniqueSlug": "when-the-what-ifs-multiply-fadca6dd2432",
+          "uniqueSlug": "finding-the-bus-stop-of-epiphany-cca88500a478",
           "previewContent": {
             "bodyModel": {
               "paragraphs": [{
-                "name": "4b6a",
+                "name": "8d82",
                 "type": 3,
-                "text": "When the ‘what-ifs’ multiply",
+                "text": "Finding the bus stop of epiphany 🚌",
                 "markups": [],
                 "alignment": 1
               }, {
-                "name": "7ee5",
+                "name": "495a",
                 "type": 4,
                 "text": "",
                 "markups": [{
                   "type": 3,
                   "start": 7,
-                  "end": 18,
-                  "href": "https://unsplash.com/@saekinomao",
+                  "end": 17,
+                  "href": "https://unsplash.com/@scottwebb",
                   "title": "",
                   "rel": "",
                   "anchorType": 0
                 }],
                 "layout": 10,
                 "metadata": {
-                  "id": "1*S-TbUBWIEvVTTcviw7Or1g.png",
-                  "originalWidth": 6016,
-                  "originalHeight": 4016
+                  "id": "1*0gF_wr_ZbH1uEOimrW8ClQ.png",
+                  "originalWidth": 3910,
+                  "originalHeight": 2603
                 }
               }, {
-                "name": "5b3a",
+                "name": "736e",
                 "type": 1,
-                "text": "I was going to write this post all on my own, but I realized Shel Silverstein said it best…",
+                "text": "Intellectual belief is something a lot of people seem to worship, in a way. They need the proof…",
                 "markups": [],
                 "hasDropCap": true,
                 "alignment": 1
@@ -1750,7 +1808,7 @@
       "path": "/_/api/users/46b03c875ccb/profile/stream",
       "next": {
         "limit": "8",
-        "to": "1470285662261",
+        "to": "1470976862708",
         "source": "latest",
         "page": 1
       }

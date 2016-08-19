@@ -13,8 +13,17 @@ chrome.runtime.onMessage.addListener(
 );
 
 function addPost(request) {
-  console.log("got addPost message")
-  $("#content").prepend('<a target="_blank" href="' + request.url + '">' + request.title + '</a> ' + moment(request.publishedAt).format("MMMM DD, YYYY") + '<br/>');
+  var context = {title: "My New Post", body: "This is my first post!"};
+  var publishedAt = moment(request.publishedAt).format("MMMM DD, YYYY");
+  var html = postTemplate({
+    url: request.url,
+    title: request.title,
+    authorName: request.authorName,
+    imageUrl: request.imageUrl,
+    recommends: request.recommends,
+    responses: request.responses,
+    publishedAt: publishedAt});
+  $("#content").prepend(html);
 }
 
 function complete(request) {
@@ -33,6 +42,10 @@ function interrupted(request) {
 }
 
 $(function() {
+  //ryanm IIFE
+  postTemplateSource = $("#post-template").html();
+  postTemplate = Handlebars.compile(postTemplateSource);
+
   NProgress.configure({ trickleRate: 0.05, showSpinner: false });
   NProgress.start();
 });
