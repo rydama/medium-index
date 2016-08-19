@@ -4,6 +4,11 @@ Create a chronological index from your favorite Medium author
 
 ## Installing from the Chrome app store
 
+## Using it
+
+- Go to https://medium.com/@jonasellison/
+- Click the MediumPress button
+
 ## Developing
 
 ### Loading the extension locally

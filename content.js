@@ -13,7 +13,11 @@ chrome.runtime.onMessage.addListener(
 );
 
 function startFetchingPosts(tabId) {
-  var url = "https://medium.com/_/api/users/46b03c875ccb/profile/stream?limit=8&to=1469940062507&source=latest&page=1"
+  var currentTime = new Date().getTime();
+  var apiBaseUrl = "https://medium.com/_/api/";
+  var userId = $("a[data-user-id]").attr("data-user-id");
+  var url = apiBaseUrl + "users/" + userId + "/profile/stream?limit=8&to=" + currentTime + "&source=latest&page=1"
+
 
   $.ajax(url, {
     dataType: "text"
