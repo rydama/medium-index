@@ -1,5 +1,6 @@
 {
   let tabId = null;
+  let postTemplate = null;
 
   chrome.tabs.query({active:true, windowType:"normal", currentWindow: true},
     function(tabs) {
@@ -10,7 +11,8 @@
 
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
-      if (request.tabId == tabId) {
+      if (request.tabId != tabId) {
+        console.log("ignoring request.tabId: " + request.tabId + " myId: " + tabId)
         return;
       }
 
@@ -27,12 +29,8 @@
   );
 
   function addPost(request) {
-    var context = {
-      title: "My New Post",
-      body: "This is my first post!"
-    };
-    var publishedAt = moment(request.publishedAt).format("MMMM DD, YYYY");
-    var html = postTemplate({
+    let publishedAt = moment(request.publishedAt).format("MMMM DD, YYYY");
+    let html = postTemplate({
       url: request.url,
       title: request.title,
       authorName: request.authorName,
@@ -45,12 +43,12 @@
   }
 
   function complete(request) {
-    $("#content").prepend("<h3>Done!</h3>");
     NProgress.done();
   }
 
   function failed(request) {
-    $("#content").prepend("<h3>failed: " + request.error + "</h3>");
+    //ryanm string interpolate
+    $("#content").prepend("<h3>Error: " + request.error + "</h3>");
     NProgress.done();
   }
 
@@ -59,8 +57,7 @@
   }
 
   $(function() {
-    postTemplateSource = $("#post-template").html();
-    postTemplate = Handlebars.compile(postTemplateSource);
+    postTemplate = Handlebars.compile($("#post-template").html());
 
     NProgress.configure({
       trickleRate: 0.05,

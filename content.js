@@ -32,8 +32,6 @@
     fetchPosts(url, indexTabId);
   }
 
-  let foo = 0;
-
   function fetchPosts(url, indexTabId) {
     $.ajax(url, {
         // Use 'text' since there is a security prefix on the returned json.
@@ -41,10 +39,9 @@
       })
       .done(function(text) {
         try {
-          foo++;
           let json = stripSecurityPrefix(text);
           let nextUrl = processPosts(json, indexTabId);
-          if (foo > 1 || interrupted) {
+          if (interrupted) {
             chrome.runtime.sendMessage({
               "message": "interrupted",
               "tabId": indexTabId
@@ -52,7 +49,7 @@
           } else if (nextUrl) {
             // Be nice to the server :)
             setTimeout(function() {
-              fetchPosts(nextUrl)
+              fetchPosts(nextUrl, indexTabId);
             }, 1000);
           } else {
             chrome.runtime.sendMessage({
