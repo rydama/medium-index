@@ -48,7 +48,7 @@ function fetchPosts(url) {
       foo++;
       var json = stripSecurityPrefix(text);
       var nextUrl = processPosts(json);
-      if (foo > 3 || interrupted) {
+      if (foo > 1 || interrupted) {
         console.log("fetchPosts interrupted");
         chrome.runtime.sendMessage({"message": "interrupted"});
       } else if (nextUrl) {

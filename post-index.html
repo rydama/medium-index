@@ -1,47 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="UTF-8">
-      <title>Medium Index</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Medium Index</title>
 
-      <link rel="stylesheet" type="text/css" href="vendor/medium-fonts-base.css">
-      <link rel="stylesheet" type="text/css" href="vendor/medium-main-base.css">
-      <link rel="stylesheet" type="text/css" href="vendor/nprogress.css"/>
+  <link rel="stylesheet" type="text/css" href="vendor/medium-fonts-base.css">
+  <link rel="stylesheet" type="text/css" href="vendor/medium-main-base.css">
+  <link rel="stylesheet" type="text/css" href="vendor/nprogress.css"/>
 
-      <script src="vendor/jquery-2.2.4.min.js"></script>
-      <script src="vendor/moment.min.js"></script>
-      <script src="vendor/nprogress.js"></script>
-      <script src="vendor/handlebars-v4.0.5.js"></script>
-      <script src="post-index.js"></script>
+  <script src="vendor/jquery-2.2.4.min.js"></script>
+  <script src="vendor/moment.min.js"></script>
+  <script src="vendor/nprogress.js"></script>
+  <script src="vendor/handlebars-v4.0.5.js"></script>
+  <script src="post-index.js"></script>
 
-      <script id="post-template-off" type="text/x-handlebars-template">
-        <div class="post">
-          <a target="_blank" href="{{url}}">{{title}}</a>
-          {{publishedAt}}
-        </div>
-      </script>
+  <script id="post-template" type="text/x-handlebars-template">
 
-      <script id="post-template" type="text/x-handlebars-template">
-        <div class="streamItem-card streamItem-card--postPreview streamItem-card--hPadding20 streamItem-card--borderRadius3 cardChromeless"><div class="streamItem-cardInner streamItem-cardInner--postPreview"><article class="postArticle postArticle--short js-postArticle js-trackedPost" data-post-id="50e083d4a2cc" data-source="user_profile---------1-" data-scroll="native" data-action-scope="_actionscope_4"><div class="u-clearfix u-marginBottom10"><div class="postMetaInline u-floatLeft"><div class="postMetaInline-avatar"><a class="link avatar u-baseColor--link" href="https://medium.com/@boobsradley" data-action="show-user-card" data-action-type="hover" data-user-id="f0b135a5075b" dir="auto"><img src="{{imageUrl}}" class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Julieanne Smolinski"></a></div>
+    <div class="streamItem-card streamItem-card--postPreview streamItem-card--hPadding20 streamItem-card--borderRadius3 cardChromeless">
+      <div class="streamItem-cardInner streamItem-cardInner--postPreview">
+        <article class="postArticle postArticle--short js-postArticle js-trackedPost" data-post-id="50e083d4a2cc" data-source="user_profile---------1-" data-scroll="native" data-action-scope="_actionscope_4">
+          <div class="u-clearfix u-marginBottom10">
+            <div class="postMetaInline u-floatLeft">
+              <div class="postMetaInline-avatar">
+                <img src="{{imageUrl}}" class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Julieanne Smolinski">
+              </div>
 
-        <div class="postMetaInline-authorLockup">
-        <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link" href="https://medium.com/@boobsradley?source=user_profile---------1-" data-action="show-user-card" data-action-source="user_profile---------1-" data-action-type="hover" data-user-id="f0b135a5075b" dir="auto">{{authorName}}</a>
+              <div class="postMetaInline-authorLockup">
+                <span>{{authorName}}</span>
+                <div class="u-fontSizeSmallest js-postMetaInlineSupplemental">
+                  <span>{{publishedAt}}</span>
+                </div>
+              </div>
 
-        <div class="u-fontSizeSmallest js-postMetaInlineSupplemental"><a class="link link--darken" href="https://medium.com/@boobsradley/on-going-away-50e083d4a2cc?source=user_profile---------1-" data-action="open-post" data-action-value="https://medium.com/@boobsradley/on-going-away-50e083d4a2cc?source=user_profile---------1-" data-action-source="preview-listing">{{publishedAt}}</a><span class="middotDivider"></span><span class="readingTime">8 min read</span></div></div></div></div><div class="layoutSingleColumn"><a class="" href="https://medium.com/@boobsradley/on-going-away-50e083d4a2cc?source=user_profile---------1-" data-action-source="user_profile---------1-"><div class="postArticle-content js-postField"><section class=" section--body section--first section--last"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h3 name="116a" id="116a" class="graf--h3 graf--leading graf--title">{{title}}</h3>
+            </div>
+          </div>
+          <div class="layoutSingleColumn">
+
+              <div class="postArticle-content js-postField"><section class=" section--body section--first section--last">
+              <div class="section-divider layoutSingleColumn"><hr class="section-divider"></div>
+              <div class="section-content">
+              <div class="section-inner layoutSingleColumn">
+              <h3 name="116a" id="116a" class="graf--h3 graf--leading graf--title">{{title}}</h3>
 
 
 
 
 
-        <div class="u-clearfix u-paddingTop10"><div class="buttonSet buttonSet--withLabels u-floatLeft"><div class="buttonSet-inner"><div class="js-actionRecommend" data-post-id="50e083d4a2cc" data-is-flush-left="true" data-source="listing"><button class="button button--primary button--chromeless is-touchIconFadeInPulse u-accentColor--buttonNormal button--withIcon button--withSvgIcon u-accentColor--iconLight js-actionRecommendButton" title="Recommend to share this article with your followers and let the author know you liked it" aria-label="Recommend to share this article with your followers and let the author know you liked it" data-action="sign-in-prompt" data-sign-in-action="upvote" data-requires-token="true" data-redirect="https://medium.com/_/vote/p/50e083d4a2cc" data-action-source="listing"><span class="button-defaultState"><span class="svgIcon svgIcon--heart svgIcon--25px is-flushLeft"><svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25"><path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12zM8.428 4.866c-2.414 0-4.378 2.05-4.378 4.568 0 3.475 5.057 7.704 7.774 9.975.243.2.47.39.676.56.245-.21.52-.43.813-.68 2.856-2.36 7.637-6.31 7.637-9.87 0-2.52-1.964-4.57-4.377-4.57-1.466 0-2.828.76-3.644 2.04-.1.14-.26.23-.43.23-.18 0-.34-.09-.43-.24-.82-1.27-2.18-2.03-3.65-2.03z" fill-rule="evenodd"></path></svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--heartFilled svgIcon--25px is-flushLeft"><svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25"><path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12z" fill-rule="evenodd"></path></svg></span></span></button><button class="button button--chromeless u-baseColor--buttonNormal u-disablePointerEvents" data-action="show-recommends" data-action-value="50e083d4a2cc">{{recommends}}</button></div></div></div><div class="buttonSet u-floatRight"><div class="buttonSet-inner"><a class="button button--chromeless u-baseColor--buttonNormal" href="https://medium.com/@boobsradley/on-going-away-50e083d4a2cc?source=user_profile---------1-#--responses" data-action-source="user_profile---------1-">{{responses}} responses</a>
+              <div class="u-clearfix u-paddingTop10">
+              <div class="buttonSet buttonSet--withLabels u-floatLeft">
+              <div class="buttonSet-inner">
+              <div class="js-actionRecommend" data-post-id="50e083d4a2cc" data-is-flush-left="true" data-source="listing">
 
-        <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="sign-in-prompt" data-sign-in-action="add-to-bookmarks" data-requires-token="true" data-redirect="https://medium.com/_/bookmark/p/50e083d4a2cc"><span class="button-defaultState"><span class="svgIcon svgIcon--bookmark svgIcon--25px is-flushRight"><svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px is-flushRight"><svg class="svgIcon-use" width="25" height="26" viewBox="0 0 25 26"><path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd"></path></svg></span></span></button></div></div></div></article></div>
-        </div>
-      </script>
-  </head>
 
-  <body>
-    <div id="content">
-    </div>
-  </body>
-</html>
+
+
+
+                <div class="button button--primary button--chromeless is-touchIconFadeInPulse u-accentColor--buttonNormal button--withIcon button--withSvgIcon u-accentColor--iconLight js-actionRecommendButton">
+                  <span class="button-defaultState">
+                    <span class="svgIcon svgIcon--heart svgIcon--25px is-flushLeft">
+                      <svg class="svgIcon-use" width="25" height="25" viewBox="0 0 25 25"><path d="M12.5 21a.492.492 0 0 1-.327-.122c-.278-.24-.61-.517-.978-.826-2.99-2.5-7.995-6.684-7.995-10.565C3.2 6.462 5.578 4 8.5 4c1.55 0 3 .695 4 1.89a5.21 5.21 0 0 1 4-1.89c2.923 0 5.3 2.462 5.3 5.487 0 3.97-4.923 8.035-7.865 10.464-.42.35-.798.66-1.108.93a.503.503 0 0 1-.327.12zM8.428 4.866c-2.414 0-4.378 2.05-4.378 4.568 0 3.475 5.057 7.704 7.774 9.975.243.2.47.39.676.56.245-.21.52-.43.813-.68 2.856-2.36 7.637-6.31 7.637-9.87 0-2.52-1.964-4.57-4.377-4.57-1.466 0-2.828.76-3.644 2.04-.1.14-.26.23-.43.23-.18 0-.34-.09-.43-.24-.82-1.27-2.18-2.03-3.65-2.03z" fill-rule="evenodd"></path></svg></span></span>
+                      <span class="button button--chromeless u-baseColor--buttonNormal u-disablePointerEvents">{{recommends}}</span>
+                </div>
+
+
+                  </div></div></div>
+                  <div class="buttonSet u-floatRight">
+                    <div class="buttonSet-inner">
+                      <span class="button button--chromeless u-baseColor--buttonNormal u-disablePointerEvents">{{responses}} responses</span>
+                    </div>
+                  </div>
+
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </script>
+          </head>
+
+          <body>
+            <div id="content">
+            </div>
+          </body>
+          </html>
