@@ -37,7 +37,6 @@ function failed(request) {
 }
 
 function interrupted(request) {
-  $("#content").prepend("<h3>interrupted!</h3>");
   NProgress.done();
 }
 
