@@ -5,14 +5,12 @@
   chrome.tabs.query({active:true, windowType:"normal", currentWindow: true},
     function(tabs) {
       tabId = tabs[0].id;
-      console.log("my id: " + tabs[0].id);
     }
   );
 
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
       if (request.tabId != tabId) {
-        console.log("ignoring request.tabId: " + request.tabId + " myId: " + tabId)
         return;
       }
 

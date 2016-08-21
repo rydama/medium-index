@@ -58,7 +58,11 @@
             });
           }
         } catch (err) {
-          console.log("MediumPress: there was a problem creating the index. " + err.message);
+          chrome.runtime.sendMessage({
+            "message": "failed",
+            "tabId": indexTabId,
+            "error": `MediumPress: there was a problem creating the index. ${err.message}`
+          });
         }
       })
       .fail(function(jqXHR, textStatus, error) {
@@ -156,16 +160,40 @@
   }
 
   function getPostUrl(post, data) {
-    let collections = data.payload.references.Collection;
+    let url = null;
+    let collectionSlug = getCollectionSlug(post, data);
 
-    let url = "https://medium.com/";
-    if (post.homeCollectionId && post.homeCollectionId.length) {
-      url += collections[post.homeCollectionId].slug + "/";
+    if (collectionSlug) {
+      url = `https://medium.com/${collectionSlug}/`;
     } else {
       url = baseUserUrl;
     }
-    url += post.uniqueSlug;
+
+    // Some posts have an empty uniqueSlug. Fall back to slug-id.
+    url = addUrlSegment(url, post.uniqueSlug || `${post.slug}-${post.id}`);
     return url;
+  }
+
+  function getCollectionSlug(post, data) {
+    let collections = data.payload.references.Collection;
+
+    if (collections) {
+      if (post.homeCollectionId && post.homeCollectionId.length) {
+        let collection = collections[post.homeCollectionId];
+        if (collection) {
+          return collection.slug;
+        }
+      }
+    }
+    return null;
+  }
+
+  function addUrlSegment(url, segment) {
+    if (url.endsWith("/")) {
+      return url + segment;
+    }
+
+    return url + "/" + segment;
   }
 
   function stopFetchingPosts() {
