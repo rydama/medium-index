@@ -61,7 +61,7 @@
           chrome.runtime.sendMessage({
             "message": "failed",
             "tabId": indexTabId,
-            "error": `MediumPress: there was a problem creating the index. ${err.message}`
+            "error": `There was a problem creating the index. ${err.message}`
           });
         }
       })
