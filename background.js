@@ -1,5 +1,6 @@
 {
   let contentTab = null;
+  let indexTab = null;
 
   function updateActionEnablement() {
     chrome.tabs.query({
@@ -24,10 +25,13 @@
   });
 
   chrome.tabs.onRemoved.addListener(function(tabId) {
-    if (contentTab) {
-      chrome.tabs.sendMessage(contentTab.id, {
-        "message": "stopFetchingPosts"
-      });
+    // If the index tab is closed, stop fetching posts.
+    if (tabId == indexTab.id) {
+      if (contentTab) {
+        chrome.tabs.sendMessage(contentTab.id, {
+          "message": "stopFetchingPosts"
+        });
+      }
     }
   });
 
@@ -35,12 +39,12 @@
     contentTab = tab;
 
     // Create an index page to contain Medium post links.
-    chrome.tabs.create({'url': chrome.extension.getURL('post-index.html') }, function(indexTab) {
+    chrome.tabs.create({'url': chrome.extension.getURL('post-index.html') }, function(theIndexTab) {
+      indexTab = theIndexTab;
       // Tell the content script to start fetching posts for this index page.
-      // can't sent to content this way: chrome.runtime.sendMessage({"message": "startFetchingPosts", "tabId": tab.id});
       chrome.tabs.sendMessage(tab.id, {
         "message": "startFetchingPosts",
-        "tabId": indexTab.id
+        "tabId": theIndexTab.id
       });
     });
   });
