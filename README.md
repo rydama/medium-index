@@ -1,4 +1,4 @@
-# MediumIndex
+# Medium Index
 
 Create a chronological index from your favorite Medium author
 
@@ -7,7 +7,7 @@ Create a chronological index from your favorite Medium author
 ## Using it
 
 - Go to https://medium.com/@jonasellison/
-- Click the MediumIndex button
+- Click the Medium Index button
 
 ## Developing
 
@@ -17,7 +17,7 @@ Create a chronological index from your favorite Medium author
 
 - Click Reload in chrome://extensions
 - Refresh the Medium page
-- Click the MediumIndex button to open the index for the Medium page
+- Click the Medium Index button to open the index for the Medium page
 
 ### Debugging
 

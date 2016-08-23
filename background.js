@@ -7,7 +7,7 @@
       currentWindow: true
     }, function(tabs) {
       let activeTab = tabs[0];
-      if (activeTab.url.indexOf('://medium.com/') >= 0) {
+      if (activeTab.url.indexOf("https://medium.com/") >= 0) {
         chrome.pageAction.show(activeTab.id);
       }
     });

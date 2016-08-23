@@ -1,5 +1,5 @@
 {
-  "name": "MediumIndex",
+  "name": "Medium Index",
   "version": "0.0.1",
   "description": "Create a chronological index of Medium posts",
   "icons": {
@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://medium.com/*"
+        "https://medium.com/*"
       ],
       "js": [
         "vendor/jquery-2.2.4.min.js",

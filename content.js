@@ -1,6 +1,6 @@
 {
   let interrupted = false;
-  let baseUserUrl = $('meta[property="al:web:url"]').attr('content')
+  let baseUserUrl = getBaseUserUrl();
 
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
@@ -198,5 +198,14 @@
 
   function stopFetchingPosts() {
     interrupted = true;
+  }
+
+  function getBaseUserUrl() {
+    let baseUserUrl = $('meta[property="al:web:url"]').attr('content')
+
+    // The url may be a post url like https://medium.com/@shpigford/do-you-work-alone,
+    // so chop it down to just https://medium.com/@shpigford
+    let parts = baseUserUrl.split("/")
+    return `${parts[0]}//${parts[2]}/${parts[3]}`;
   }
 }
