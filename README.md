@@ -6,8 +6,11 @@ Create a chronological index from your favorite Medium author
 
 ## Using it
 
-- Go to https://medium.com/@jonasellison/
+- Go to a medium author page, such as https://medium.com/@shpigford
 - Click the Medium Index button
+
+(medium-index-button.png?raw=true)
+
 
 ## Developing
 
