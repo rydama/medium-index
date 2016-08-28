@@ -1,7 +1,16 @@
+/**
+ * Chrome extension content script.
+ *
+ * This script runs on all medium.com pages. It is responsible for reading the DOM
+ * and making calls to the internal medium api to fetch the author's posts.
+ */
 {
   let interrupted = false;
   let baseUserUrl = getBaseUserUrl();
 
+  /**
+   * Add a listener for the start/stop fetching messages.
+   */
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
       if (request.message === "startFetchingPosts") {
@@ -11,13 +20,6 @@
       }
     }
   );
-
-
-  // May need is we need to get posts off the page instead of via api, for authors with only a few
-  // that don't show up in the api????
-  // function getPostsFromPage() {
-  //   document.querySelectorAll("article.postArticle a")
-  // }
 
   /**
    * Start fetching the post lists via the medium (internal) api.
@@ -32,6 +34,9 @@
     fetchPosts(url, indexTabId);
   }
 
+  /**
+   * Recursively fetch posts until we reach the end (there is no nextUrl).
+   */
   function fetchPosts(url, indexTabId) {
     $.ajax(url, {
         // Use 'text' since there is a security prefix on the returned json.
@@ -41,6 +46,7 @@
         try {
           let json = stripSecurityPrefix(text);
           let nextUrl = processPosts(json, indexTabId);
+          // ryanm move this interrupted before process post.
           if (interrupted) {
             chrome.runtime.sendMessage({
               "message": "interrupted",
@@ -74,6 +80,10 @@
       });
   }
 
+  /**
+   * Parse post info from the data and send it in a message (to be picked up by
+   * the post-index script).
+   */
   function processPosts(data, indexTabId) {
     posts = getPosts(data);
 
@@ -93,6 +103,7 @@
       });
     }
 
+    // ryanm string interpolate
     if (data.payload.paging.next) {
       let url = "https://medium.com" +
         data.payload.paging.path +
@@ -129,20 +140,6 @@
 
   function getResponsesCount(post) {
     return post.virtuals.responsesCreatedCount;
-  }
-
-  function fetchPost(url) {
-    return $.ajax(url, {
-        // Use 'text' since there is a security prefix on the returned json, which causees
-        // trouble for jQuery if using dataType: json.
-        dataType: "text"
-      })
-      .done(function(text) {
-        // Strip the security prefix...  ])}while(1);</x>
-        // http://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses
-        cleaned = text.slice(16);
-        json = JSON.parse(cleaned);
-      });
   }
 
   function getPosts(data) {

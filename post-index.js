@@ -1,13 +1,24 @@
+/**
+ * Script for the post-index page. This page is created whenever the user clicks the Medium Index
+ * button. It receives messages from the from the content script and adds the post html
+ * accordingly.
+ */
 {
   let tabId = null;
   let postTemplate = null;
 
+  /**
+   * Store our own tabId for later comparison.
+   */
   chrome.tabs.query({active:true, windowType:"normal", currentWindow: true},
     function(tabs) {
       tabId = tabs[0].id;
     }
   );
 
+  /**
+   * Listener for receiving messages from the content script.
+   */
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
       if (request.tabId != tabId) {
@@ -26,6 +37,9 @@
     }
   );
 
+  /**
+   * Prepend a post to the DOM, so they appear in chronological order.
+   */
   function addPost(request) {
     let publishedAt = moment(request.publishedAt).format("MMMM DD, YYYY");
     let html = postTemplate({
@@ -61,6 +75,7 @@
       trickleRate: 0.05,
       showSpinner: false
     });
+
     NProgress.start();
   });
 }
