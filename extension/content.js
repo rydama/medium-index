@@ -99,7 +99,7 @@
         "imageUrl": getImageUrl(user),
         "recommends": getRecommendsCount(post),
         "responses": getResponsesCount(post),
-        "publishedAt": post.latestPublishedAt
+        "publishedAt": post.firstPublishedAt
       });
     }
 
