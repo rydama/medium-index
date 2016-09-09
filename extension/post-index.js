@@ -1,7 +1,7 @@
 /**
- * Script for the post-index page. This page is created whenever the user clicks the Medium Index
- * button. It receives messages from the from the content script and adds the post html
- * accordingly.
+ * Script for the post-index page. This page is created whenever the user
+ * clicks the Medium Index button. It receives messages from the content script
+ * and adds the post html accordingly.
  */
 {
   let tabId = null;
