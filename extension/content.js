@@ -28,7 +28,7 @@
     let currentTime = new Date().getTime();
     let apiBaseUrl = "https://medium.com/_/api/";
     let userId = $("a[data-user-id]").attr("data-user-id");
-    let url = apiBaseUrl + "users/" + userId + "/profile/stream?limit=8&to=" + currentTime + "&source=latest&page=1"
+    let url = `${apiBaseUrl}users/${userId}/profile/stream?limit=8&to=${currentTime}&source=latest&page=1`
 
     interrupted = false;
     fetchPosts(url, indexTabId);
@@ -46,11 +46,11 @@
         try {
           let json = stripSecurityPrefix(text);
           let nextUrl = processPosts(json, indexTabId);
-          // ryanm move this interrupted before process post.
+
           if (interrupted) {
             chrome.runtime.sendMessage({
-              "message": "interrupted",
-              "tabId": indexTabId
+              message: "interrupted",
+              tabId: indexTabId
             });
           } else if (nextUrl) {
             // Be nice to the server :)
@@ -59,23 +59,23 @@
             }, 1000);
           } else {
             chrome.runtime.sendMessage({
-              "message": "complete",
-              "tabId": indexTabId
+              message: "complete",
+              tabId: indexTabId
             });
           }
         } catch (err) {
           chrome.runtime.sendMessage({
-            "message": "failed",
-            "tabId": indexTabId,
+            message: "failed",
+            tabId: indexTabId,
             "error": `There was a problem creating the index. ${err.message}`
           });
         }
       })
       .fail(function(jqXHR, textStatus, error) {
         chrome.runtime.sendMessage({
-          "message": "failed",
-          "tabId": indexTabId,
-          "error": jqXHR.responseText
+          message: "failed",
+          tabId: indexTabId,
+          error: jqXHR.responseText
         });
       });
   }
@@ -90,28 +90,21 @@
     for (let post of posts) {
       let user = getUser(post.creatorId, data)
       chrome.runtime.sendMessage({
-        // ryanm why is key quoted??
-        "message": "addPost",
-        "tabId": indexTabId,
-        "url": getPostUrl(post, data),
-        "title": post.title,
-        "authorName": user.name,
-        "imageUrl": getImageUrl(user),
-        "recommends": getRecommendsCount(post),
-        "responses": getResponsesCount(post),
-        "publishedAt": post.firstPublishedAt
+        message: "addPost",
+        tabId: indexTabId,
+        url: getPostUrl(post, data),
+        title: post.title,
+        authorName: user.name,
+        imageUrl: getImageUrl(user),
+        recommends: getRecommendsCount(post),
+        responses: getResponsesCount(post),
+        publishedAt: post.firstPublishedAt
       });
     }
 
-    // ryanm string interpolate
     if (data.payload.paging.next) {
-      let url = "https://medium.com" +
-        data.payload.paging.path +
-        "?limit=" + data.payload.paging.next.limit +
-        "&to=" + data.payload.paging.next.to +
-        "&source=" + data.payload.paging.next.source +
-        "&page=" + data.payload.paging.next.page;
-      return url;
+      let paging = data.payload.paging;
+      return `${paging.path}?limit=${paging.next.limit}&to=${paging.next.to}&source=${paging.next.source}&page=${paging.next.page}`;
     }
 
     return null;
@@ -187,10 +180,10 @@
 
   function addUrlSegment(url, segment) {
     if (url.endsWith("/")) {
-      return url + segment;
+      return `${url}${segment}`;
     }
 
-    return url + "/" + segment;
+    return `${url}/${segment}`;
   }
 
   function stopFetchingPosts() {

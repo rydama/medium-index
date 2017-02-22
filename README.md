@@ -8,9 +8,9 @@ Create a chronological index of posts from your favorite Medium author.
 
 ## Using it
 
-- Go to a medium author page, such as https://medium.com/@shpigford
+- Go to a medium author page, such as https://medium.com/@shpigford or https://medium.com/@jasonfried
 - Click the Medium Index button
-- A new page will open listing all posts in chronological order
+- A new page will open and begin populating all posts, inserting the oldest at the top
 
 ![Medium Index Button](medium-index-button.png?raw=true)
 

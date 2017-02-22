@@ -26,7 +26,7 @@
       }
 
       if (request.message === "addPost") {
-        addPost(request); // ryanm .call(request.message) ?
+        addPost(request);
       } else if (request.message === "complete") {
         complete(request);
       } else if (request.message === "failed") {
@@ -59,8 +59,7 @@
   }
 
   function failed(request) {
-    //ryanm string interpolate
-    $("#content").prepend("<h3>Error: " + request.error + "</h3>");
+    $("#content").prepend(`<h3>Error: ${request.error}</h3>`);
     NProgress.done();
   }
 

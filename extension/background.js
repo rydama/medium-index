@@ -20,8 +20,8 @@
       indexTab = theIndexTab;
       // Tell the content script to start fetching posts for this index page.
       chrome.tabs.sendMessage(tab.id, {
-        "message": "startFetchingPosts",
-        "tabId": theIndexTab.id
+        message: "startFetchingPosts",
+        tabId: theIndexTab.id
       });
     });
   });
@@ -35,7 +35,7 @@
     if (tabId == indexTab.id) {
       if (contentTab) {
         chrome.tabs.sendMessage(contentTab.id, {
-          "message": "stopFetchingPosts"
+          message: "stopFetchingPosts"
         });
       }
     }
